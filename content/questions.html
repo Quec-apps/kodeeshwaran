@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <script src="res/jquery.min.js"></script>
+<style>
+@font-face {
+    font-family: Rubik;
+    src: url(res/font/Rubik-Medium.ttf);
+}
+html, body {
+width: 100vw; height: 100vh; overflow: hidden;
+}
+body {
+width: 100vw; height: 100vh;
+margin: 0;
+background-image: radial-gradient( #23105f, #010d37);
+font-family: Rubik; color: #d5d7d5;
+user-select: none; /* supported by Chrome and Opera */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.full {
+width: 100vw; height: 100vh;
+animation: full 400ms ease 1;
+} @keyframes full {
+    0%{transform: scale(1.2); opacity: 0;}
+    100%{transform: scale(1); opacity: 1;}
+}
+.top {
+width: 100vw; height: 10vh;
+display: flex; justify-content: right; align-items: center;
+}
+.coins {
+margin-right: 5vw;
+display: flex; justify-content: center; align-items: center;
+}
+.coins-img {
+width: 8vw; height: 8vw;
+}
+#coins {margin-left: 2vw; font-size: 5.5vw;}
+
+.title {
+padding-left: 3vw; font-size: 9vw;
+padding-bottom: 5vh;
+}
+
+.ct-bg {
+width: 100%;
+display: flex; flex-wrap: wrap; justify-content: space-around;
+}
+.ct {
+width: 40vw; height: 45vw; border-radius: 10px;
+border: solid 1.5vw #d5d7d5; margin-top: 2vh;
+display: flex; flex-wrap: wrap; 
+justify-content: center; align-items: center;
+} .ct:active {
+transition: none; opacity: .7;
+}
+.tick-bg {
+width: 25vw; height: 25vw;
+display: flex; flex-wrap: wrap;
+justify-content: center; align-content: space-between;
+}
+.ct-img {
+width: 25vw; height: 25vw;
+display: none;
+} 
+.ct-img-lock {
+width:15vw; height: 15vw;
+}
+.ct-txt {
+width: 100%; text-align: center; font-size: 7vw;
+}
+.amt {
+width: 100%; display: flex; justify-content: center; align-items: center;
+} .amt-img {
+width: 7vw; height: 7vw; margin-right: 1vw;
+}
+.toast{
+width: 90vw;
+position: fixed; top: 70vh; left: 5vw;
+padding: 1vh 0; background-color: black; border-radius: 10px;
+color: white; text-align: center; font-size: 4vw;
+transition: all 400ms ease; display: none;
+animation: toast 400ms ease 1;
+} @keyframes toast {
+    0%{transform: scale(1.2); opacity: 0;}
+    100%{transform: scale(1); opacity: 1;}
+}
+</style>
+</head>
+<body>
+<audio src="res/audio/click.mp3" id="click-audio"></audio>
+<div class="full">
+<div class="top">
+    <div class="coins">
+        <img src="res/img/coins.png" class="coins-img">
+        <div id="coins">28</div>
+    </div>
+</div>
+<div class="title">Questions</div>
+
+<div class="ct-bg">
+<div class="ct all-ct">
+    <div class="tick-bg">
+        <img src="res/img/tick.png" class="ct-img all-img">
+    </div>
+    <div class="ct-txt">All</div>
+</div>
+<div class="ct nature-ct">
+    <div class="tick-bg">
+        <img src="res/img/lock.png" class="ct-img-lock nature-con">
+        <div class="amt nature-con"><img src="res/img/coins.png" class="amt-img"> 50</div>
+        <img src="res/img/tick.png" class="ct-img nature-img">
+    </div>
+    <div class="ct-txt">Nature</div>
+</div>
+<div class="ct">
+    <div class="ct-txt">More Coming Soon</div>
+</div>
+</div>
+</div>
+<div class="toast">No enough coins to buy</div>
+<script>
+coins = parseInt(localStorage.getItem("coins")); $("#coins").html(coins);
+
+function Toast() {
+$(".toast").fadeIn(0);
+setTimeout(() => {$(".toast").fadeOut();}, 2000);
+}
+
+if (localStorage.getItem("nature") == 1) {
+$(".nature-con").fadeOut(0);
+}
+ques = localStorage.getItem("ques");
+$("."+ques+"-img").fadeIn(0);
+
+$(".ct").click(function() {
+document.getElementById("click-audio").play();
+});
+$(".all-ct").click(function() {
+if (localStorage.getItem("ques") != "all") {
+console.log("blah");
+localStorage.setItem("ques", "all");
+$(".ct-img").css({visibility:'hidden'});
+$(".all-img").fadeIn(0); $(".all-img").css({visibility:'visible'});
+}
+});
+
+$(".nature-ct").click(function() {
+if (localStorage.getItem("nature") == 1) {
+localStorage.setItem("ques", "nature");
+$(".ct-img").css({visibility:'hidden'});
+$(".nature-con").fadeOut(0); $(".nature-img").fadeIn(0); $(".nature-img").css({visibility:'visible'});
+} else {
+if (coins >= 50) {
+coins -= 50; localStorage.setItem("coins", coins); $("#coins").html(coins);
+localStorage.setItem("ques", "nature"); localStorage.setItem("nature", 1);
+$(".ct-img").css({visibility:'hidden'});
+$(".nature-con").fadeOut(0); $(".nature-img").fadeIn(0); $(".nature-img").css({visibility:'visible'});
+} else {Toast();}
+}
+});
+</script>
+</body>
+</html>
