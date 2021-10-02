@@ -199,6 +199,16 @@ location.href="stats.html";
 }, 600);
 });
 
+$(".rate").click(function() {
+localStorage.setItem("intro", 0);
+setTimeout(() => {
+document.getElementById("click-audio").play();
+}, 200);
+setTimeout(() => {
+location.href="https://play.google.com/store/apps/details?id=com.quec.guess.malayalam";
+}, 600);
+});
+
 }
 
 
