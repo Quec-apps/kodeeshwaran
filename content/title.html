@@ -94,6 +94,8 @@ transform: scale(.95);
 
 .btm {
 width: 100vw; height: 10vh;
+display: flex; justify-content: right;
+align-items: center;
 }
 
 
@@ -138,8 +140,35 @@ width: 100vw; height: 10vh;
 
 </div>
 
+<style>
+.guess-bg {
+width: 60vw; margin-right: 2vw;
+background-color: #d5d7d5;
+color: #23105f;
+border-radius: 10px;
+padding: .5vh 2vw;
+display: flex; align-items: center;
+justify-content: space-evenly;
+transition: all 400ms ease;
+animation: guess-bg 400ms ease 1;
+} @keyframes guess-bg {
+    0%{transform: translateX(100%); opacity: 0;}
+    100%{transform: translateX(0%); opacity: 1;}
+} .guess-bg:active {
+transition: none; opacity: .5;
+}
+.guess-img {
+width: 11vw; height: 11vw;
+}
+.guess-txt {
+font-size: 4vw;
+}
+</style>
 <div class="btm">
-
+<div class="guess-bg">
+<img src="res/img/guess-icon.png" class="guess-img">
+<div class="guess-txt">Guess Malayalam Movie</div>
+</div>
 </div>
 
 
@@ -163,6 +192,7 @@ coins = localStorage.getItem("coins");
 $("#coins").html(coins);
 function Outro() {
     setTimeout(() => {$(".button").css({transform:'translateX(150%)'});}, 100);
+    setTimeout(() => {$(".guess-bg").css({transform:'translateX(100%)', opacity:'0'});}, 100);
     setTimeout(() => {$(".button-stick").css({transform:'translateX(-100%)'});}, 300);
     setTimeout(() => {$(".logo-img, .coins").css({transform:'scale(1.2)', opacity:'0'});}, 300);
 }
@@ -205,9 +235,20 @@ setTimeout(() => {
 document.getElementById("click-audio").play();
 }, 200);
 setTimeout(() => {
+location.href="https://play.google.com/store/apps/details?id=com.quec.kodeeshwaran";
+}, 600);
+});
+
+$(".guess-bg").click(function() {
+localStorage.setItem("intro", 0);
+setTimeout(() => {
+document.getElementById("click-audio").play();
+}, 200);
+setTimeout(() => {
 location.href="https://play.google.com/store/apps/details?id=com.quec.guess.malayalam";
 }, 600);
 });
+
 
 }
 
