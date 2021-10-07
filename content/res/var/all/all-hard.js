@@ -894,6 +894,252 @@ window["b-h-ans"+b] = 3;
 
 
 
+
+
+
+b++;
+window["b-h-q-ma"+b] = "രാത്രിയിൽ മാത്രം സജീവമായ ഒരു മൃഗം എന്താണ്?";
+window["b-h-q-en"+b] = "An animal that is active only at night is ...?";
+window["b-h-A"+b] = "Crepuscular";
+window["b-h-B"+b] = "Maturinal";
+window["b-h-C"+b] = "Nocturnal";
+window["b-h-D"+b] = "Diurnal";
+window["b-h-ans"+b] = 3;
+
+b++;
+window["b-h-q-ma"+b] = "ഏത് മൃഗത്തിന് കടുത്ത കവചമുണ്ട്?";
+window["b-h-q-en"+b] = "Which animal has a tough armor?";
+window["b-h-A"+b] = "Armadillo";
+window["b-h-B"+b] = "Dolphin";
+window["b-h-C"+b] = "Giraffe";
+window["b-h-D"+b] = "Tiger";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "കാൽമുട്ടിന് താഴെയുള്ള ഒരു പ്രത്യേക സ്ഥലത്ത് ചുറ്റിക കൊണ്ട് അടിച്ചുകൊണ്ട് ഒരു ഡോക്ടർ എന്താണ് പരിശോധിക്കുന്നത്?";
+window["b-h-q-en"+b] = "What does a doctor test by hitting a particular spot below the knee with a hammer?";
+window["b-h-A"+b] = "Pain response";
+window["b-h-B"+b] = "Reflex";
+window["b-h-C"+b] = "Consciousness";
+window["b-h-D"+b] = "Proprioception";
+window["b-h-ans"+b] = 2;
+
+b++;
+window["b-h-q-ma"+b] = "എന്താണ് ഹോമോ എറക്ടസ്?";
+window["b-h-q-en"+b] = "What is Homo erectus?";
+window["b-h-A"+b] = "Extinct primate";
+window["b-h-B"+b] = "Asian black bear";
+window["b-h-C"+b] = "Psychological state";
+window["b-h-D"+b] = "Philosophical theory";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "കുടലിന്റെ വീക്കം എന്താണ്?";
+window["b-h-q-en"+b] = "What is an inflammation of the bowel?";
+window["b-h-A"+b] = "Myeloma";
+window["b-h-B"+b] = "Fibrous dysplasia";
+window["b-h-C"+b] = "Hepatitis";
+window["b-h-D"+b] = "Gastroenteritis";
+window["b-h-ans"+b] = 4;
+
+b++;
+window["b-h-q-ma"+b] = "തലയോട്ടി എന്തിന്റെ ഭാഗമാണ്?";
+window["b-h-q-en"+b] = "The cranium is the part of the ...?";
+window["b-h-A"+b] = "Skull";
+window["b-h-B"+b] = "Liver";
+window["b-h-C"+b] = "Thighs";
+window["b-h-D"+b] = "Pelvis";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "തലച്ചോറിലെ നാഡീകോശങ്ങളെ നശിപ്പിക്കുന്ന രോഗം ഏതാണ്?";
+window["b-h-q-en"+b] = "Which disease destroys nerve cells in the brain?";
+window["b-h-A"+b] = "Obesity";
+window["b-h-B"+b] = "Alzheimer's";
+window["b-h-C"+b] = "Cholera";
+window["b-h-D"+b] = "Asthma";
+window["b-h-ans"+b] = 2;
+
+b++;
+window["b-h-q-ma"+b] = "ചൂടുള്ള റോഡുകളിൽ 'മരീചിക പ്രഭാവത്തിന്' കാരണമാകുന്നത് എന്താണ്?";
+window["b-h-q-en"+b] = "What cause the 'mirage effect' on hot roads?";
+window["b-h-A"+b] = "Paramagnetism";
+window["b-h-B"+b] = "Turbulance";
+window["b-h-C"+b] = "Refraction";
+window["b-h-D"+b] = "Scattering";
+window["b-h-ans"+b] = 3;
+
+b++;
+window["b-h-q-ma"+b] = "വിള്ളൽ സമയത്ത് ഏത് പേശിയാണ് സങ്കോചിക്കുന്നത്?";
+window["b-h-q-en"+b] = "Which muscle contracts during hiccup?";
+window["b-h-A"+b] = "Cremaster";
+window["b-h-B"+b] = "Hyoglossus";
+window["b-h-C"+b] = "Diaphragm";
+window["b-h-D"+b] = "Serratus anterior";
+window["b-h-ans"+b] = 3;
+
+b++;
+window["b-h-q-ma"+b] = "അമ്മയും ഭ്രൂണവും തമ്മിലുള്ള ഒരു വിനിമയ ഉപരിതലമായി എന്താണ് പ്രവർത്തിക്കുന്നത്?";
+window["b-h-q-en"+b] = "What acts as an exchange surface between mother and embryo?";
+window["b-h-A"+b] = "Placenta";
+window["b-h-B"+b] = "Anus";
+window["b-h-C"+b] = "Ovaries";
+window["b-h-D"+b] = "Cervix";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "'ഹെപ്പറ്റൈറ്റിസ്' ഏത് പ്രധാന അവയവത്തെയാണ് ബാധിക്കുന്നത്?";
+window["b-h-q-en"+b] = "'Hepatitis' affects which major organ?";
+window["b-h-A"+b] = "The liver";
+window["b-h-B"+b] = "The heart";
+window["b-h-C"+b] = "The lungs";
+window["b-h-D"+b] = "The brain";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "BMI യിൽ B എന്താണ് അർത്ഥമാക്കുന്നത്?";
+window["b-h-q-en"+b] = "What does B stand for in BMI?";
+window["b-h-A"+b] = "Background";
+window["b-h-B"+b] = "Body";
+window["b-h-C"+b] = "Back";
+window["b-h-D"+b] = "Base";
+window["b-h-ans"+b] = 2;
+
+b++;
+window["b-h-q-ma"+b] = "'ന്യൂറിറ്റിസ്' ശരീരത്തിന്റെ ഏത് ഭാഗത്തെയാണ് ബാധിക്കുന്നത്?";
+window["b-h-q-en"+b] = "'Neuritis' affects which part of the body?";
+window["b-h-A"+b] = "Skin";
+window["b-h-B"+b] = "Muscles";
+window["b-h-C"+b] = "Nerves";
+window["b-h-D"+b] = "Brain";
+window["b-h-ans"+b] = 3;
+
+b++;
+window["b-h-q-ma"+b] = "ഇനിപ്പറയുന്നവയിൽ ഏതാണ് വിറ്റാമിൻ ബി സമുച്ചയത്തിൽ അംഗമല്ലാത്തത്?";
+window["b-h-q-en"+b] = "Which of the following is not a member of the vitamin B complex?";
+window["b-h-A"+b] = "Thiamine";
+window["b-h-B"+b] = "Riboflavin";
+window["b-h-C"+b] = "Folic acid";
+window["b-h-D"+b] = "Ascorbic acid";
+window["b-h-ans"+b] = 4;
+
+b++;
+window["b-h-q-ma"+b] = "എന്ത് ഇല്ലാത്ത സസ്യങ്ങളാണ് ഫംഗസ്?";
+window["b-h-q-en"+b] = "Fungi are plants that lack ...?";
+window["b-h-A"+b] = "Oxygen";
+window["b-h-B"+b] = "Carbon dioxide";
+window["b-h-C"+b] = "Chlorophyll";
+window["b-h-D"+b] = "None of these";
+window["b-h-ans"+b] = 3;
+
+b++;
+window["b-h-q-ma"+b] = "ഇഴജന്തുക്കളെ ഇഴജന്തുക്കളാക്കുന്നത് എന്താണ്?";
+window["b-h-q-en"+b] = "What makes a reptile a reptile?";
+window["b-h-A"+b] = "Cold blooded";
+window["b-h-B"+b] = "Warm Blooded";
+window["b-h-C"+b] = "Non-Hearing";
+window["b-h-D"+b] = "Egg-laying";
+window["b-h-ans"+b] = 4;
+
+b++;
+window["b-h-q-ma"+b] = "ഏറ്റവും ചെറിയ വ്യാസമുള്ള രക്തക്കുഴലുകൾ ഏതാണ്?";
+window["b-h-q-en"+b] = "Which blood vessels have the smallest diameter?";
+window["b-h-A"+b] = "Capillaries";
+window["b-h-B"+b] = "Arterioles";
+window["b-h-C"+b] = "Venules";
+window["b-h-D"+b] = "Lymphatic";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "ഇനിപ്പറയുന്നവയിൽ ഏതാണ് വായുവിലൂടെ പകരുന്ന രോഗം?";
+window["b-h-q-en"+b] = "Which of the following is an air-borne disease?";
+window["b-h-A"+b] = "Measles";
+window["b-h-B"+b] = "Typhoid";
+window["b-h-C"+b] = "Pink eye";
+window["b-h-D"+b] = "None of the above";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "ശരീരത്തിലെ ഏത് അവയവമാണ് bile എന്നറിയപ്പെടുന്ന ദ്രാവകം ഉത്പാദിപ്പിക്കുന്നത്?";
+window["b-h-q-en"+b] = "Which organ of the body produces the fluid known as bile?";
+window["b-h-A"+b] = "Liver";
+window["b-h-B"+b] = "Pancreas";
+window["b-h-C"+b] = "Gall bladder";
+window["b-h-D"+b] = "Kidney";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "താഴെ കൊടുത്തിരിക്കുന്ന ഹോർമോണുകളിൽ ഏതാണ് സ്റ്റിറോയിഡ്?";
+window["b-h-q-en"+b] = "Which of the following hormones is a steroid?";
+window["b-h-A"+b] = "Estrogen";
+window["b-h-B"+b] = "Glucagon";
+window["b-h-C"+b] = "Insulin";
+window["b-h-D"+b] = "Oxytocin";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "പാസ്കലൈൻ എന്ന മെക്കാനിക്കൽ കാൽക്കുലേറ്റർ കണ്ടുപിടിച്ചത് ആരാണ്?";
+window["b-h-q-en"+b] = "Who invented mechanical calculator called Pascaline?";
+window["b-h-A"+b] = "Charles Babbage";
+window["b-h-B"+b] = "Blaise Pascal";
+window["b-h-C"+b] = "Alan Turing";
+window["b-h-D"+b] = "Lee De Forest";
+window["b-h-ans"+b] = 2;
+
+b++;
+window["b-h-q-ma"+b] = "താഴെ പറയുന്നവരിൽ ആരാണ് 'കൃത്രിമ ബുദ്ധിയുടെ(AI) പിതാവ്' ആയി കണക്കാക്കപ്പെടുന്നത്?";
+window["b-h-q-en"+b] = "Who among the following considered as the 'father of artificial intelligence'?";
+window["b-h-A"+b] = "Charles Babbage";
+window["b-h-B"+b] = "Lee De Forest";
+window["b-h-C"+b] = "John McCarthy";
+window["b-h-D"+b] = "JP Eckert";
+window["b-h-ans"+b] = 3;
+
+b++;
+window["b-h-q-ma"+b] = "ഓങ്കോളജി എന്താണ് പഠിക്കുന്നത്?";
+window["b-h-q-en"+b] = "Oncology is the study of what?";
+window["b-h-A"+b] = "Birds";
+window["b-h-B"+b] = "Cancer";
+window["b-h-C"+b] = "Mammals";
+window["b-h-D"+b] = "Soil";
+window["b-h-ans"+b] = 2;
+
+b++;
+window["b-h-q-ma"+b] = "Numismatics എന്തിനെ കുറിച്ചുള്ള പഠനമാണ്?";
+window["b-h-q-en"+b] = "Numismatics is the study of what?";
+window["b-h-A"+b] = "Coins";
+window["b-h-B"+b] = "Numbers";
+window["b-h-C"+b] = "Stamps";
+window["b-h-D"+b] = "Space";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "ആപേക്ഷിക ഈർപ്പം അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണത്തിന്റെ പേര്?";
+window["b-h-q-en"+b] = "Name the instrument that is used to measure Relative Humidity?";
+window["b-h-A"+b] = "Hygrometer";
+window["b-h-B"+b] = "Hydrometer";
+window["b-h-C"+b] = "Barometer";
+window["b-h-D"+b] = "Mercury Thermometer";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "പാലിന്റെ സാന്ദ്രത അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണത്തിന്റെ പേര്?";
+window["b-h-q-en"+b] = "Name an instrument which is used to measure the Density of milk?";
+window["b-h-A"+b] = "Lactometer";
+window["b-h-B"+b] = "Hydrometer";
+window["b-h-C"+b] = "Barometer";
+window["b-h-D"+b] = "Hygrometer";
+window["b-h-ans"+b] = 1;
+
+b++;
+window["b-h-q-ma"+b] = "വൈദ്യുത പ്രതിരോധം അളക്കാൻ ഉപയോഗിക്കുന്ന ഉപകരണത്തിന്റെ പേര്?";
+window["b-h-q-en"+b] = "Name an instrument used to measure electric resistance?";
+window["b-h-A"+b] = "Ohmmeter";
+window["b-h-B"+b] = "Electrometer";
+window["b-h-C"+b] = "Galvanometer";
+window["b-h-D"+b] = "Spectrometer";
+window["b-h-ans"+b] = 1;
+
 b++;
 window["b-h-q-ma"+b] = "";
 window["b-h-q-en"+b] = "";
@@ -984,6 +1230,483 @@ window["b-h-C"+b] = "";
 window["b-h-D"+b] = "";
 window["b-h-ans"+b] = "";
 
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
+
+b++;
+window["b-h-q-ma"+b] = "";
+window["b-h-q-en"+b] = "";
+window["b-h-A"+b] = "";
+window["b-h-B"+b] = "";
+window["b-h-C"+b] = "";
+window["b-h-D"+b] = "";
+window["b-h-ans"+b] = "";
 
 
-b_hTotal = 99;
+
+b_hTotal = 126;

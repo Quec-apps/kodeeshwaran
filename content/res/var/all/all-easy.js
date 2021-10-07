@@ -315,12 +315,6 @@ window["b-e-C"+a] = "spectroscope";
 window["b-e-D"+a] = "telescope";
 window["b-e-ans"+a] = 2;
 
-
-
-
-
-
-
 a++;
 window["b-e-q-ma"+a] = "ഒരു ഡസനിൽ എത്ര മുട്ടകളുണ്ട്?";
 window["b-e-q-en"+a] = "How many eggs are there in a dozen?";
@@ -798,6 +792,298 @@ window["b-e-C"+a] = "King cobra";
 window["b-e-D"+a] = "Rattlesnake";
 window["b-e-ans"+a] = 1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a++;
+window["b-e-q-ma"+a] = "തുരുമ്പ് എന്തിന്റെ ഒരു രൂപമാണ്?";
+window["b-e-q-en"+a] = "Rust is a form of what?";
+window["b-e-A"+a] = "Sodium perborate";
+window["b-e-B"+a] = "Ferric chloride";
+window["b-e-C"+a] = "Iron oxide";
+window["b-e-D"+a] = "Iron sulfate";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "'Black widow' ചിലന്തിക്ക് അതിന്റെ പേര് എങ്ങനെ ലഭിച്ചു?";
+window["b-e-q-en"+a] = "How did the female black widow spider get its name?";
+window["b-e-A"+a] = "Doesn't produce cobwebs";
+window["b-e-B"+a] = "Kills widows";
+window["b-e-C"+a] = "Return home only once a year";
+window["b-e-D"+a] = "Eats the male after mating";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "സീബ്രകൾ എവിടെയാണ് താമസിക്കുന്നത്?";
+window["b-e-q-en"+a] = "Where do zebras live?";
+window["b-e-A"+a] = "South America";
+window["b-e-B"+a] = "Africa";
+window["b-e-C"+a] = "Australia";
+window["b-e-D"+a] = "Europe";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് അവയവം നീക്കംചെയ്യുന്നത് വലിയ സങ്കീർണതകൾ ഇല്ലാതെ മനുഷ്യർ നിലനിൽക്കുന്നു?";
+window["b-e-q-en"+a] = "The removal of which organ do humans survive without great complications?";
+window["b-e-A"+a] = "Gallbladder";
+window["b-e-B"+a] = "Heart";
+window["b-e-C"+a] = "Cerebellum";
+window["b-e-D"+a] = "Liver";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് മൃഗത്തിന് മുത്തുകൾ ഉത്പാദിപ്പിക്കാൻ കഴിയും?";
+window["b-e-q-en"+a] = "Which animal can produce pearls?";
+window["b-e-A"+a] = "Oyster";
+window["b-e-B"+a] = "Cow";
+window["b-e-C"+a] = "Strurgeon";
+window["b-e-D"+a] = "Spider";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "കമ്പ്യൂട്ടിംഗിൽ, 'CPU' ലെ 'P' എന്താണ്?";
+window["b-e-q-en"+a] = "In computing, for what does the 'P' in 'CPU' stand?";
+window["b-e-A"+a] = "Processing";
+window["b-e-B"+a] = "Polynomial";
+window["b-e-C"+a] = "Predictive";
+window["b-e-D"+a] = "Partitioning";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഒരു ജീവി ജീവിക്കുന്ന സ്വാഭാവിക സ്ഥലത്തിന്റെ പദം എന്താണ്?";
+window["b-e-q-en"+a] = "What is the term for the natural place where an organism lives?";
+window["b-e-A"+a] = "Quadrant";
+window["b-e-B"+a] = "Pyramid";
+window["b-e-C"+a] = "Exosphere";
+window["b-e-D"+a] = "Habitat";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "നമ്മുടെ ശരീരത്തിലെ പ്രധാന പോഷകങ്ങളുടെ അഭാവത്തെ നമ്മൾ എന്താണ് വിളിക്കുന്നത്?";
+window["b-e-q-en"+a] = "What do we call the absence of important nutrients in our body?";
+window["b-e-A"+a] = "Deficiency";
+window["b-e-B"+a] = "Defoliation";
+window["b-e-C"+a] = "Deflagration";
+window["b-e-D"+a] = "Defection";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് പക്ഷിക്ക് നീന്താൻ കഴിയും, പക്ഷേ പറക്കാൻ കഴിയില്ല?";
+window["b-e-q-en"+a] = "What bird can swim but not fly?";
+window["b-e-A"+a] = "Swan";
+window["b-e-B"+a] = "Stork";
+window["b-e-C"+a] = "Penguin";
+window["b-e-D"+a] = "Eagle";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "നമ്മുടെ പ്രപഞ്ചത്തിന്റെ ആരംഭത്തെ ഏത് സിദ്ധാന്തം വിവരിക്കുന്നു?";
+window["b-e-q-en"+a] = "What theory describes the start of our universe?";
+window["b-e-A"+a] = "Supernova";
+window["b-e-B"+a] = "Big Bang";
+window["b-e-C"+a] = "Special relativity";
+window["b-e-D"+a] = "Standard model";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ഒരു മിന്നൽ മൂലമുണ്ടാകുന്ന ശബ്ദത്തെ നമ്മൾ എന്താണ് വിളിക്കുന്നത്?";
+window["b-e-q-en"+a] = "What do we call the sound that is caused by a lightning?";
+window["b-e-A"+a] = "Sonar";
+window["b-e-B"+a] = "Gong";
+window["b-e-C"+a] = "Clang";
+window["b-e-D"+a] = "Thunder";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "ലോഹം അടങ്ങിയ ധാതുവിന്റെ പദം എന്താണ്?";
+window["b-e-q-en"+a] = "What is the term for a mineral that contains metal?";
+window["b-e-A"+a] = "Ore";
+window["b-e-B"+a] = "Cement";
+window["b-e-C"+a] = "Peat";
+window["b-e-D"+a] = "Stone";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് മൃഗത്തിലെ മുട്ടയാണ് ഒരു സഞ്ചിയിൽ കൊണ്ടുപോകുന്നത്?";
+window["b-e-q-en"+a] = "The male of which animal carry the eggs in a pouch?";
+window["b-e-A"+a] = "Seahorse";
+window["b-e-B"+a] = "Sea urchin";
+window["b-e-C"+a] = "Octopus";
+window["b-e-D"+a] = "Angler fish";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "രക്തത്തിലെ പഞ്ചസാരയുടെ അളവ് കുറയ്ക്കുന്ന ഹോർമോൺ ഏതാണ്?";
+window["b-e-q-en"+a] = "Which hormone lowers blood sugar levels?";
+window["b-e-A"+a] = "Insulin";
+window["b-e-B"+a] = "Glucagon";
+window["b-e-C"+a] = "Somatostatin";
+window["b-e-D"+a] = "Leptin";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "മരുന്നുകൾ തയ്യാറാക്കാനും വിതരണം ചെയ്യാനും ആർക്കാണ് യോഗ്യത?";
+window["b-e-q-en"+a] = "Who is qualified to prepare and dispense drugs?";
+window["b-e-A"+a] = "Optician";
+window["b-e-B"+a] = "Herpetologist";
+window["b-e-C"+a] = "Marquetarian";
+window["b-e-D"+a] = "Pharmacist";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് അവയവത്തെയാണ് ആസ്ത്മ ബാധിക്കുന്നത്?";
+window["b-e-q-en"+a] = "What organ is affected by asthma?";
+window["b-e-A"+a] = "Appendix";
+window["b-e-B"+a] = "Lungs";
+window["b-e-C"+a] = "Kidneys";
+window["b-e-D"+a] = "Liver";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "എയർലൈനുകൾ ഉയർന്ന ഉയരത്തിൽ പറക്കുന്നതിനാൽ, ക്യാബിൻ എന്തായിരിക്കണം?";
+window["b-e-q-en"+a] = "Since airlines fly at high altitudes, the cabin must be ...?";
+window["b-e-A"+a] = "Pressurized";
+window["b-e-B"+a] = "Gravitized";
+window["b-e-C"+a] = "Deflated";
+window["b-e-D"+a] = "Translucent";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ആവർത്തിച്ചുള്ള തലവേദന ഏതാണ്?";
+window["b-e-q-en"+a] = "Which is a recurrent throbbing headache?";
+window["b-e-A"+a] = "Bulimia";
+window["b-e-B"+a] = "Scleritis";
+window["b-e-C"+a] = "Migraine";
+window["b-e-D"+a] = "Myasthenia";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "പ്രകാശം മറ്റൊരു വസ്തുവിലൂടെ പ്രവേശിക്കുമ്പോൾ അതിന്റെ വളവ് എന്താണ്?";
+window["b-e-q-en"+a] = "What is the bending of the light when it enters a different medium?";
+window["b-e-A"+a] = "Reaggregation";
+window["b-e-B"+a] = "Ablation";
+window["b-e-C"+a] = "Refraction";
+window["b-e-D"+a] = "Reflection";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "ശ്വാസകോശം, ശ്വാസനാളം, മൂക്ക് എന്നിവ ഏത് അവയവ വ്യവസ്ഥയുടെ ഭാഗമാണ്?";
+window["b-e-q-en"+a] = "The lungs, trachea and nose are part of which organ system?";
+window["b-e-A"+a] = "Respiratory";
+window["b-e-B"+a] = "Digestive";
+window["b-e-C"+a] = "Circulatory";
+window["b-e-D"+a] = "Nervous";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "'Ni' ഏത് ഘടകത്തെ പ്രതിനിധീകരിക്കുന്നു?";
+window["b-e-q-en"+a] = "'Ni' represents which element?";
+window["b-e-A"+a] = "Nicktin";
+window["b-e-B"+a] = "Nickelodeon";
+window["b-e-C"+a] = "Nickel";
+window["b-e-D"+a] = "Nicholas";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "ഈ പദാർത്ഥങ്ങളിൽ ഏതാണ് ലോഹമല്ല?";
+window["b-e-q-en"+a] = "Which of these substances is not metallic?";
+window["b-e-A"+a] = "Talc";
+window["b-e-B"+a] = "Bronze";
+window["b-e-C"+a] = "Brass";
+window["b-e-D"+a] = "Pewter";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഇനിപ്പറയുന്നവയിൽ ഏതാണ് ഹൃദയത്തിൽ നിന്ന് രക്തം കൊണ്ടുപോകുന്ന ഒരു വലിയ രക്തക്കുഴൽ?";
+window["b-e-q-en"+a] = "Which of the following is a large blood vessel that carries blood away from the heart?";
+window["b-e-A"+a] = "Vein";
+window["b-e-B"+a] = "Artery";
+window["b-e-C"+a] = "Capillary";
+window["b-e-D"+a] = "Nerve";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ഇനിപ്പറയുന്നവയിൽ ഏതാണ് കരളിന്റെ പ്രവർത്തനം അല്ലാത്തത്?";
+window["b-e-q-en"+a] = "Which one of the following is not a function of the liver?";
+window["b-e-A"+a] = "Regulation of blood sugar";
+window["b-e-B"+a] = "Enzyme activation";
+window["b-e-C"+a] = "Detoxification";
+window["b-e-D"+a] = "Reproduction";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "ഇനിപ്പറയുന്നവയിൽ ഏതാണ് ആദ്യ കണക്കുകൂട്ടുന്ന ഉപകരണം?";
+window["b-e-q-en"+a] = "Which of the following is the first calculating device?";
+window["b-e-A"+a] = "Abacus";
+window["b-e-B"+a] = "Calculator";
+window["b-e-C"+a] = "Turing Machine";
+window["b-e-D"+a] = "Pascaline";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "കമ്പ്യൂട്ടറിന്റെ ആപ്ലിക്കേഷൻ സോഫ്റ്റ്വെയറിന്റെ ഉദാഹരണം തിരഞ്ഞെടുക്കുക";
+window["b-e-q-en"+a] = "Select the example of application software of computer";
+window["b-e-A"+a] = "Ms Word";
+window["b-e-B"+a] = "Ms Excel";
+window["b-e-C"+a] = "Both A and B";
+window["b-e-D"+a] = "MS-DOS";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "പ്രിന്ററിന്റെ ഗുണനിലവാരം എങ്ങനെയാണ് അളക്കുന്നത്?";
+window["b-e-q-en"+a] = "How the quality of printer is measured?";
+window["b-e-A"+a] = "Alphabet per strike";
+window["b-e-B"+a] = "Words per Inch";
+window["b-e-C"+a] = "Strike per Inch";
+window["b-e-D"+a] = "Dots per Inch";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "അനാട്ടമി ശാസ്ത്രത്തിന്റെ ഏത് ശാഖയുമായി ബന്ധപ്പെട്ടിരിക്കുന്നു?";
+window["b-e-q-en"+a] = "Anatomy deals with which branch of Science?";
+window["b-e-A"+a] = "Structure of animals and plants";
+window["b-e-B"+a] = "Functioning of body organs";
+window["b-e-C"+a] = "Animal behaviour";
+window["b-e-D"+a] = "Cells and tissues";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഭക്ഷണത്തിന്റെ ഊര്‍ജ്ജം എങ്ങനെയാണ് അളക്കുന്നത്?";
+window["b-e-q-en"+a] = "How energy of food is measured?";
+window["b-e-A"+a] = "Calories";
+window["b-e-B"+a] = "Celsius";
+window["b-e-C"+a] = "Kelvin";
+window["b-e-D"+a] = "None of the above";
+window["b-e-ans"+a] = 1;
+
 a++;
 window["b-e-q-ma"+a] = "";
 window["b-e-q-en"+a] = "";
@@ -834,270 +1120,9 @@ window["b-e-C"+a] = "";
 window["b-e-D"+a] = "";
 window["b-e-ans"+a] = "";
 
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
-
-a++;
-window["b-e-q-ma"+a] = "";
-window["b-e-q-en"+a] = "";
-window["b-e-A"+a] = "";
-window["b-e-B"+a] = "";
-window["b-e-C"+a] = "";
-window["b-e-D"+a] = "";
-window["b-e-ans"+a] = "";
 
 
 
 
 
-
-b_eTotal = 88;
+b_eTotal = 117;
