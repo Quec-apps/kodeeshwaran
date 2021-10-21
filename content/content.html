@@ -78,7 +78,7 @@ display: flex; justify-content: center; align-items: center;
 }
 .stick {
 width: 100vw; height: .5vh; background-color: #d5d7d5;
-position: absolute; z-index: 0;
+position: absolute; top: 48%; left:0; z-index: 0;
 animation: stick 400ms ease 1;
 transition: all 300ms ease;
 } @keyframes stick {
@@ -244,7 +244,7 @@ I think the answer is "<span id="letter"></span>"
 </div>
 
 <div class="ques-bg">
-<div class="stick"></div><div class="ques-txt">Which of this is associated with oracle? asf  aiwrjwi wrwoirhwr auyfdg uaygfyauif eir gfyg gr</div>
+<div class="stick"></div><div class="ques-txt"></div>
 </div>
 
 <div class="timer-bg">
@@ -256,13 +256,13 @@ I think the answer is "<span id="letter"></span>"
 <div class="ans-bg">
 <div class="ans-bg1">
 <div class="stick"></div>
-<div class="ans-txt txtA txt1">A. Buffalp</div>
-<div class="ans-txt txtB txt2">B. Buffalp</div>
+<div class="ans-txt txtA txt1"></div>
+<div class="ans-txt txtB txt2"></div>
 </div>
 <div class="ans-bg2">
 <div class="stick"></div>
-<div class="ans-txt txtC txt3">C. Buffalp</div>
-<div class="ans-txt txtD txt4">D. Buffalp</div>
+<div class="ans-txt txtC txt3"></div>
+<div class="ans-txt txtD txt4"></div>
 </div>
 </div>
 
@@ -400,10 +400,10 @@ $(".txtD").html("<span id='let'>D. </span>" + window[ques+"-e-D"+shuffleVar]);
 Ans = window[ques+"-e-ans"+shuffleVar];
 } else {
 $(".ques-txt").html(window[ques+"-h-q-"+lang+shuffleVar]);
-$(".txtA").html("A. " + window[ques+"-h-A"+shuffleVar]);
-$(".txtB").html("B. " + window[ques+"-h-B"+shuffleVar]);
-$(".txtC").html("C. " + window[ques+"-h-C"+shuffleVar]);
-$(".txtD").html("D. " + window[ques+"-h-D"+shuffleVar]);
+$(".txtA").html("<span id='let'>A. </span> " + window[ques+"-h-A"+shuffleVar]);
+$(".txtB").html("<span id='let'>B. </span> " + window[ques+"-h-B"+shuffleVar]);
+$(".txtC").html("<span id='let'>C. </span> " + window[ques+"-h-C"+shuffleVar]);
+$(".txtD").html("<span id='let'>D. </span> " + window[ques+"-h-D"+shuffleVar]);
 Ans = window[ques+"-h-ans"+shuffleVar];
 }
 
@@ -523,6 +523,8 @@ document.getElementById("lose-audio").play();
 }
 runTimer();
 
+inter = localStorage.getItem("inter");
+
 function gameOver() {
 games_played++; localStorage.setItem("games_played", games_played);
 localStorage.setItem("gameplay", 0);
@@ -538,6 +540,12 @@ $(".game-over-con").css({display:'flex'});
 setTimeout(() => {
 $(".top, .ques-bg, .timer-bg, .ans-bg").css({display:'none'});
 }, 250);
+
+inter++; localStorage.setItem("inter", inter);
+if (inter == 3) {
+inter=0; localStorage.setItem(inter);
+parent.location="https://inter";
+}
 }
 
 hint1 = false;

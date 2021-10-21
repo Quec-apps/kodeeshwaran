@@ -484,7 +484,6 @@ window["n-h-B"+d] = "Electrometer";
 window["n-h-C"+d] = "Galvanometer";
 window["n-h-D"+d] = "Spectrometer";
 window["n-h-ans"+d] = 1;
-alert(d);
 
 
 n_hTotal = 53;

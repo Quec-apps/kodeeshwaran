@@ -51,7 +51,7 @@ position: relative;
 }
 .button-stick {
 width: 100vw; height: .5vh; background-color: #d5d7d5;
-position: absolute; z-index: 0;
+position: absolute; top: 48%; left:0; z-index: 0;
 animation: stick 400ms ease 1;
 transition: all 300ms ease;
 } @keyframes stick {
@@ -93,6 +93,7 @@ transform: scale(.95);
 </div>
 <script>
 gameplayAudio = false;
+localStorage.setItem("inter", 0);
 setInterval(() => {
 if (localStorage.getItem("gameplay") == 1) {
 if (!gameplayAudio) {
