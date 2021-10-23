@@ -324,6 +324,11 @@ transition: none; transform: scale(.95);
 <script src="res/var/nature/nature-easy.js"></script>
 <script src="res/var/nature/nature-hard.js"></script>
 <script>
+
+if (localStorage.getItem("inter") == null) {
+inter = 0; localStorage.setItem("inter", 0);
+} else {inter = localStorage.getItem("inter");}
+
 if (localStorage.getItem("ques") == "all") {ques = "b";}
 if (localStorage.getItem("ques") == "nature") {ques = "n";}
 for (let i = 1; i <= 15; i++) {
@@ -523,7 +528,6 @@ document.getElementById("lose-audio").play();
 }
 runTimer();
 
-inter = localStorage.getItem("inter");
 
 function gameOver() {
 games_played++; localStorage.setItem("games_played", games_played);
@@ -542,8 +546,8 @@ $(".top, .ques-bg, .timer-bg, .ans-bg").css({display:'none'});
 }, 250);
 
 inter++; localStorage.setItem("inter", inter);
-if (inter == 3) {
-inter=0; localStorage.setItem(inter);
+if (inter == 4) {
+inter=0; localStorage.setItem("inter", inter);
 parent.location="https://inter";
 }
 }
