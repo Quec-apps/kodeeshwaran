@@ -799,30 +799,6 @@ window["b-e-ans"+a] = 1;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a++;
 window["b-e-q-ma"+a] = "തുരുമ്പ് എന്തിന്റെ ഒരു രൂപമാണ്?";
 window["b-e-q-en"+a] = "Rust is a form of what?";
@@ -1084,6 +1060,302 @@ window["b-e-C"+a] = "Kelvin";
 window["b-e-D"+a] = "None of the above";
 window["b-e-ans"+a] = 1;
 
+
+
+
+
+
+
+
+
+//technology*****************************************
+a++;
+window["b-e-q-ma"+a] = "ഒരു തരം വിവരങ്ങൾ മാത്രം ഉൾക്കൊള്ളുന്ന ഒരു ഡാറ്റാബേസിന്റെ ഭാഗം എന്താണ്?";
+window["b-e-q-en"+a] = "What is part of a database that holds only one type of information?";
+window["b-e-A"+a] = "Report";
+window["b-e-B"+a] = "Field";
+window["b-e-C"+a] = "Record";
+window["b-e-D"+a] = "File";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "'OS' കമ്പ്യൂട്ടർ ചുരുക്കെഴുത്ത് സാധാരണയായി അർത്ഥമാക്കുന്നത്?";
+window["b-e-q-en"+a] = "'OS' computer abbreviation usually means ?";
+window["b-e-A"+a] = "Order of Significance";
+window["b-e-B"+a] = "Open Software";
+window["b-e-C"+a] = "Operating System";
+window["b-e-D"+a] = "Optical Sensor";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "'.MPG' extension refers usually to what kind of file?";
+window["b-e-A"+a] = "WordPerfect Document file";
+window["b-e-B"+a] = "MS Office document";
+window["b-e-C"+a] = "Animation/movie file";
+window["b-e-D"+a] = "Image file";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "'.MOV' വിപുലീകരണം സാധാരണയായി ഏത് തരത്തിലുള്ള ഫയലിനെയാണ് സൂചിപ്പിക്കുന്നത്?";
+window["b-e-q-en"+a] = "'.MOV' extension refers usually to what kind of file?";
+window["b-e-A"+a] = "Image file";
+window["b-e-B"+a] = "Animation/movie file";
+window["b-e-C"+a] = "Audio file";
+window["b-e-D"+a] = "MS Office document";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ഒരു ഹോം വീഡിയോ റെക്കോർഡറിന്റെ ഏറ്റവും സാധാരണമായ ഫോർമാറ്റ് VHS ആണ്. VHS എന്നതിന്റെ അർത്ഥം...?";
+window["b-e-q-en"+a] = "The most common format for a home video recorder is VHS. VHS stands for...?";
+window["b-e-A"+a] = "Video Home System";
+window["b-e-B"+a] = "Very high speed";
+window["b-e-C"+a] = "Video horizontal standard";
+window["b-e-D"+a] = "Voltage house standard";
+window["b-e-ans"+a] = 1;
+
+
+
+
+
+
+
+
+
+a++;
+window["b-e-q-ma"+a] = "സ്ത്രീകളുടെ ഗർഭനിരോധന മാർഗ്ഗം ഏതാണ്?";
+window["b-e-q-en"+a] = "Which is a female contraceptive?";
+window["b-e-A"+a] = "Diaphragm ";
+window["b-e-B"+a] = "Aciculum";
+window["b-e-C"+a] = "Didymium";
+window["b-e-D"+a] = "Frenulum";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "കുഞ്ഞുങ്ങളെ പോറ്റാൻ പാൽ ഉത്പാദിപ്പിക്കുന്ന അവയവം ഏതാണ്?";
+window["b-e-q-en"+a] = "Which organ produces milk to feed young offspring?";
+window["b-e-A"+a] = "Prostate";
+window["b-e-B"+a] = "Pancreas";
+window["b-e-C"+a] = "Pituitary gland";
+window["b-e-D"+a] = "Mammary gland";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "വെർസൈൽസ് കൊട്ടാരം ഏത് രാജ്യത്താണ് നമുക്ക് കാണാൻ കഴിയുക?";
+window["b-e-q-en"+a] = "In which country can we find the palace of Versailles?";
+window["b-e-A"+a] = "Italy";
+window["b-e-B"+a] = "The Netherlands";
+window["b-e-C"+a] = "Austria";
+window["b-e-D"+a] = "France ";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "ഹാൻഡ് മിക്‌സറിന്റെ അതേ പ്രവർത്തനം നിർവഹിക്കുന്ന അടുക്കള പാത്രം ഏതാണ്?";
+window["b-e-q-en"+a] = "Which kitchen utensil performs the same function as a hand mixer?";
+window["b-e-A"+a] = "Grater";
+window["b-e-B"+a] = "Meat grinder";
+window["b-e-C"+a] = "Whisk ";
+window["b-e-D"+a] = "Ladle";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "ആദ്യത്തെ ഇഷ്ടികകൾ എന്തിൽ നിന്നാണ് നിർമ്മിച്ചത്?";
+window["b-e-q-en"+a] = "The first bricks were made of what?";
+window["b-e-A"+a] = "Gypsum";
+window["b-e-B"+a] = "Clay";
+window["b-e-C"+a] = "Humud";
+window["b-e-D"+a] = "Talc";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ഈ പതാകകളിൽ ഏറ്റവും കുറവ് നിറങ്ങൾ അടങ്ങിയിരിക്കുന്നത് ഏതാണ്?";
+window["b-e-q-en"+a] = "Which of these flags contain the least number of colors?";
+window["b-e-A"+a] = "India";
+window["b-e-B"+a] = "United Kingdom";
+window["b-e-C"+a] = "Canada";
+window["b-e-D"+a] = "Syria";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "വളമായി അല്ലെങ്കിൽ മണ്ണ് കണ്ടീഷണറായി ഉപയോഗിക്കുന്നത് അഴുകിയ ജൈവവസ്തുക്കൾ ഏതാണ്?";
+window["b-e-q-en"+a] = "What decayed organic material is used as fertilizer or soil conditioner?";
+window["b-e-A"+a] = "Compost";
+window["b-e-B"+a] = "Brine";
+window["b-e-C"+a] = "Sediment";
+window["b-e-D"+a] = "Vermin";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ന്യൂസിലാന്റിന്റെ ദേശീയ പക്ഷി ഏതാണ്?";
+window["b-e-q-en"+a] = "What is the national bird of New Zealand?";
+window["b-e-A"+a] = "Bellbird";
+window["b-e-B"+a] = "Moa";
+window["b-e-C"+a] = "Kiwi";
+window["b-e-D"+a] = "Tui";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "ജപ്പാനിലെ ഏറ്റവും ഉയരം കൂടിയ കൊടുമുടി ഏതാണ്?";
+window["b-e-q-en"+a] = "What is Japan's highest peak?";
+window["b-e-A"+a] = "Mount Ontake";
+window["b-e-B"+a] = "Mount Hodaka";
+window["b-e-C"+a] = "Mount Fuji";
+window["b-e-D"+a] = "Mount Akaishi";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "8 ആപ്പിളിന്റെ വില $3 ആണ്. 24 ആപ്പിളിന്റെ വില എത്രയാണ്?";
+window["b-e-q-en"+a] = "8 apples cost $3. How much do 24 apples cost?";
+window["b-e-A"+a] = "$9";
+window["b-e-B"+a] = "$8";
+window["b-e-C"+a] = "$12";
+window["b-e-D"+a] = "$6";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് മൃഗങ്ങൾക്ക് കഠിനമായ കവചമുള്ളത്?";
+window["b-e-q-en"+a] = "Which animal has tough armor?";
+window["b-e-A"+a] = "Giraffe";
+window["b-e-B"+a] = "Armadillo";
+window["b-e-C"+a] = "Tiger";
+window["b-e-D"+a] = "Dolphin";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "മറ്റുള്ളവയുടെ ഒരേ കുടുംബത്തിൽ പെടാത്ത ചെടി ഏതാണ്?";
+window["b-e-q-en"+a] = "Which plant does not belong to the same family as the others?";
+window["b-e-A"+a] = "Tomato";
+window["b-e-B"+a] = "Lavender";
+window["b-e-C"+a] = "Potato";
+window["b-e-D"+a] = "Eggplant";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "പ്രോസ്റ്റേറ്റ് എന്തിന്റെ ഉത്പാദനത്തിന് സംഭാവന ചെയ്യുന്നു?";
+window["b-e-q-en"+a] = "The prostate contributes to the production of what?";
+window["b-e-A"+a] = "Semen";
+window["b-e-B"+a] = "Blood cells";
+window["b-e-C"+a] = "Digestive proteins";
+window["b-e-D"+a] = "Aphrodisiacs";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഒരു ജ്വലന എഞ്ചിനിൽ, ജ്വലനം സംഭവിക്കുന്നതിന് എന്താണ് വേണ്ടത്?";
+window["b-e-q-en"+a] = "In a combustion engine, what is required for combustion to occur?";
+window["b-e-A"+a] = "Alcohol";
+window["b-e-B"+a] = "Water";
+window["b-e-C"+a] = "Helium";
+window["b-e-D"+a] = "Oxygen";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "പ്രേക്ഷകർക്ക് മുന്നിൽ അഭിനയിക്കുന്ന ഒരു എഴുതിയ കഥ എന്താണ്?";
+window["b-e-q-en"+a] = "What is a written story that is acted out in front of an audience?";
+window["b-e-A"+a] = "Pastel";
+window["b-e-B"+a] = "Novel";
+window["b-e-C"+a] = "Drama";
+window["b-e-D"+a] = "Sonnet";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "ഉച്ചത്തിലുള്ള ശബ്ദം കേൾക്കുമ്പോൾ ഏത് റിഫ്ലെക്സാണ് ഉണ്ടാകുന്നത്?";
+window["b-e-q-en"+a] = "Which reflex is triggered when we hear a loud noise?";
+window["b-e-A"+a] = "Coughing";
+window["b-e-B"+a] = "Sneezing";
+window["b-e-C"+a] = "Blinking";
+window["b-e-D"+a] = "Yawning";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "വിംബിൾഡൺ ഏത് കായിക ഇനത്തിന് പ്രശസ്തമാണ്?";
+window["b-e-q-en"+a] = "For what sport is Wimbledon famous?";
+window["b-e-A"+a] = "Tennis";
+window["b-e-B"+a] = "Football";
+window["b-e-C"+a] = "Cricket";
+window["b-e-D"+a] = "Ice hockey";
+window["b-e-ans"+a] = 1;
+
+a++;
+window["b-e-q-ma"+a] = "ഏത് തരത്തിലുള്ള വെള്ളമാണ് സാധാരണയായി മനുഷ്യർക്ക് കുടിക്കാൻ സുരക്ഷിതം?";
+window["b-e-q-en"+a] = "Which type of water is usually safe to drink for humans?";
+window["b-e-A"+a] = "Sea water";
+window["b-e-B"+a] = "Spring water";
+window["b-e-C"+a] = "Aqua regia";
+window["b-e-D"+a] = "Pond water";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "എന്ത് കാരണത്താലാണ് ബംഗ്ലാദേശിൽ ഓരോ വർഷവും ആയിരക്കണക്കിന് ആളുകൾ മരിക്കുന്നത്?";
+window["b-e-q-en"+a] = "Thousands of people die each year in Bangladesh because of what?";
+window["b-e-A"+a] = "Vulcanic eruptions";
+window["b-e-B"+a] = "Flooding";
+window["b-e-C"+a] = "Wildfires";
+window["b-e-D"+a] = "Lightning strikes";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ചൈനയിലെ ഭീമാകാരമായ പാണ്ട ഏതാണ്ട് എന്ത് ഭക്ഷണമാണ് നൽകുന്നത്?";
+window["b-e-q-en"+a] = "The giant panda of China feed almost what food?";
+window["b-e-A"+a] = "Hazelnuts";
+window["b-e-B"+a] = "Bamboo";
+window["b-e-C"+a] = "Apples";
+window["b-e-D"+a] = "Eucalyptus";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "ഭൂരിപക്ഷം ആളുകൾക്കും അവരുടെ വ്യക്തിഗത വരുമാനത്തിന്റെ ഏറ്റവും വലിയ ഭാഗം വരുന്നത്?";
+window["b-e-q-en"+a] = "For the majority of people, the largest portion of their personal income comes from?";
+window["b-e-A"+a] = "Revenue and bonuses";
+window["b-e-B"+a] = "Wages and salaries";
+window["b-e-C"+a] = "Stocks and bonds";
+window["b-e-D"+a] = "Rental and insurance";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "മിക്ക സസ്യങ്ങളിലും കാണപ്പെടുന്ന പച്ച പിഗ്മെന്റ് ഏതാണ്?";
+window["b-e-q-en"+a] = "What green pigment is found in most plants?";
+window["b-e-A"+a] = "Egyptian Vlue";
+window["b-e-B"+a] = "Chlorophyll";
+window["b-e-C"+a] = "Vermilion";
+window["b-e-D"+a] = "Titanium white";
+window["b-e-ans"+a] = 2;
+
+a++;
+window["b-e-q-ma"+a] = "നാം ശ്വസിക്കുമ്പോൾ ഉണ്ടാകുന്ന മാലിന്യങ്ങൾ ഏതാണ്?";
+window["b-e-q-en"+a] = "What waste product is produced when we breathe?";
+window["b-e-A"+a] = "Ammonia";
+window["b-e-B"+a] = "Phenol";
+window["b-e-C"+a] = "Carbon dioxide";
+window["b-e-D"+a] = "Butyic acid";
+window["b-e-ans"+a] = 3;
+
+a++;
+window["b-e-q-ma"+a] = "ഈ സസ്യങ്ങളിൽ ഏതാണ് മാംസഭോജി?";
+window["b-e-q-en"+a] = "Which of these plants is carnivorous?";
+window["b-e-A"+a] = "Cabbage";
+window["b-e-B"+a] = "Alder";
+window["b-e-C"+a] = "Nightshade";
+window["b-e-D"+a] = "Venus flytrap";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "മാംസം മാത്രം കഴിക്കുന്ന ജീവി ഏതാണ്?";
+window["b-e-q-en"+a] = "Which organism eats only meat?";
+window["b-e-A"+a] = "Vegan";
+window["b-e-B"+a] = "Omnivore";
+window["b-e-C"+a] = "Herbivore";
+window["b-e-D"+a] = "Carnivore";
+window["b-e-ans"+a] = 4;
+
+a++;
+window["b-e-q-ma"+a] = "ഒരു റഗ്ബി പന്തിന്റെ ആകൃതി എന്താണ്?";
+window["b-e-q-en"+a] = "What is the shape of a rugby ball?";
+window["b-e-A"+a] = "Octahedron";
+window["b-e-B"+a] = "Ellipsoid";
+window["b-e-C"+a] = "Solid torus";
+window["b-e-D"+a] = "Cylinder";
+window["b-e-ans"+a] = 2;
+
 a++;
 window["b-e-q-ma"+a] = "";
 window["b-e-q-en"+a] = "";
@@ -1120,9 +1392,342 @@ window["b-e-C"+a] = "";
 window["b-e-D"+a] = "";
 window["b-e-ans"+a] = "";
 
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
+
+a++;
+window["b-e-q-ma"+a] = "";
+window["b-e-q-en"+a] = "";
+window["b-e-A"+a] = "";
+window["b-e-B"+a] = "";
+window["b-e-C"+a] = "";
+window["b-e-D"+a] = "";
+window["b-e-ans"+a] = "";
 
 
 
 
 
-b_eTotal = 117;
+
+b_eTotal = 148;
