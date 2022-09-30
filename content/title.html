@@ -98,7 +98,30 @@ display: flex; justify-content: flex-end;
 align-items: center;
 }
 
-
+.new-txt {
+    position: absolute;
+    top: 30%; left: 20vw;
+    font-size: 5vw;
+    z-index: 2;
+    transform: scale(1) rotate(-20deg);
+    animation: new-txt 1s linear infinite;
+}
+@keyframes new-txt {
+    0% {
+        color: white;
+        transform: rotate(-20deg) scale(1);
+    }
+    25% {color: rgb(255, 0, 0);}
+    50% {
+        color: rgb(217, 255, 0);
+        transform: rotate(-20deg) scale(1.5);
+    }
+    75% {color: rgb(154, 2, 255);}
+    100% {
+        color: rgb(4, 255, 192);
+        transform: rotate(-20deg) scale(1);
+    }
+}
 </style>
 </head>
 <body>
@@ -128,6 +151,7 @@ align-items: center;
 
 <div class="button-bg ques">
 <div class="button-stick"></div><div class="button">QUESTIONS</div>
+<div class="new-txt">NEW</div>
 </div>
 
 <div class="button-bg stats">
@@ -170,15 +194,72 @@ font-size: 4vw;
 <div class="guess-txt">Guess Malayalam Movie</div>
 </div>
 </div>
+</div>
+
+<style>
+.latest-con {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    display: none;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    z-index: 10;
+}
+.latest-bg {
+    width: 100vw;
+    height: 32vh;
+    padding: 2vh 0;
+    background-image: radial-gradient( #23105f, #010d37);
+    display: flex; flex-wrap: wrap;
+    align-items: center;
+}
+.latest-txt {
+    width: 100%;
+    text-align: center;
+    font-size: 6vw;
+}
+</style>
+<div class="latest-con" id="latest-con">
+    <div class="latest-bg">
+        <div class="latest-txt">New Question Pack Available!!!</div>
+        <div class="button-bg ques">
+            <div class="button-stick"></div><div class="button">Go To Question Pack</div>
+        </div>
+        <div class="button-bg latest-exit" onclick="document.getElementById('latest-con').style.display='none'">
+            <div class="button-stick"></div><div class="button">Exit</div>
+    </div>
+</div>
 
 
 <script>
 localStorage.setItem("gameplay", 0);
 function allFunction() {
 
+if (localStorage.Questions == null) {
+    //Add all question to content.html at line 443 & question.html at line 228 {inside (fullQuestion) var}
+    Questions = ["General", "India", "Kerala"]; //default unlocked questions
+    localStorage.Questions = JSON.stringify(Questions);
+
+    localStorage.General = 1;
+    localStorage.India = 1;
+    localStorage.Kerala = 1;
+
+    localStorage.World = 0;
+    localStorage.Nature = 0;
+    localStorage.Technology = 0;
+    localStorage.Science = 0;
+    localStorage.Sports = 0;
+
+    if (localStorage.coins != null)
+        $(".latest-con").css({display:'flex'});
+    
+}
+Questions = JSON.parse(localStorage.Questions);
+
 if (localStorage.getItem("coins") == null) {
-    coins = 5; localStorage.setItem("coins", coins);
-    ques = "all"; localStorage.setItem("ques", ques);
+    coins = 0; localStorage.setItem("coins", coins);
     localStorage.setItem("lang", "ma");
     total_answers = localStorage.setItem("total_answers", 0);
     correct_answers = localStorage.setItem("correct_answers", 0);
@@ -187,10 +268,19 @@ if (localStorage.getItem("coins") == null) {
     games_won = localStorage.setItem("games_won", 0);
 
 } else {
-coins = localStorage.getItem("coins");
+coins = localStorage.coins;
 }
+
+if (coins >= 1000 && coins < 1000000 ) {
+    $("#coins").html((coins/1000).toFixed(2) + "K");
+} else if (coins >= 1000000 ) {
+    $("#coins").html((coins/1000000).toFixed(3) + "M");
+} else {
 $("#coins").html(coins);
+}
+
 function Outro() {
+    $(".new-txt").fadeOut();
     setTimeout(() => {$(".button").css({transform:'translateX(150%)'});}, 100);
     setTimeout(() => {$(".guess-bg").css({transform:'translateX(100%)', opacity:'0'});}, 100);
     setTimeout(() => {$(".button-stick").css({transform:'translateX(-100%)'});}, 300);

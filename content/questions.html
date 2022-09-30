@@ -48,40 +48,53 @@ width: 8vw; height: 8vw;
 
 .title {
 padding-left: 3vw; font-size: 9vw;
-padding-bottom: 5vh;
+height: 8vh;
 }
 
 .ct-bg {
-width: 100%;
+width: 100%; height: 82vh;
 display: flex; flex-wrap: wrap; justify-content: space-around;
+overflow-y: scroll;
 }
 .ct {
-width: 40vw; height: 45vw; border-radius: 10px;
-border: solid 1.5vw #d5d7d5; margin-top: 2vh;
-display: flex; flex-wrap: wrap; 
-justify-content: center; align-items: center;
+    width: 40vw;
+    height: 22vw;
+    border-radius: 10px;
+    border: solid 1vw #d5d7d5;
+    margin: 1.5vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 } .ct:active {
 transition: none; opacity: .7;
 }
 .tick-bg {
-width: 25vw; height: 25vw;
-display: flex; flex-wrap: wrap;
-justify-content: center; align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
 }
 .ct-img {
-width: 25vw; height: 25vw;
-display: none;
-} 
+    width: 10vw;
+    height: 10vw;
+    display: none;
+}
 .ct-img-lock {
-width:15vw; height: 15vw;
+width:7vw; height: 7vw;
 }
 .ct-txt {
-width: 100%; text-align: center; font-size: 7vw;
+width: 100%; text-align: center; font-size: 5vw;
 }
 .amt {
-width: 100%; display: flex; justify-content: center; align-items: center;
-} .amt-img {
-width: 7vw; height: 7vw; margin-right: 1vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+}
+.amt-img {
+width: 5vw; height: 5vw; margin-right: 1vw;
 }
 .toast{
 width: 90vw;
@@ -106,68 +119,175 @@ animation: toast 400ms ease 1;
     </div>
 </div>
 <div class="title">Questions</div>
-
+<!--a-->
 <div class="ct-bg">
-<div class="ct all-ct">
+<div class="ct" id="General">
     <div class="tick-bg">
-        <img src="res/img/tick.png" class="ct-img all-img">
+        <img src="res/img/tick.png" class="ct-img General-img">
     </div>
-    <div class="ct-txt">All</div>
+    <div class="ct-txt">General</div>
 </div>
-<div class="ct nature-ct">
+<!--b-->
+<div class="ct" id="India">
     <div class="tick-bg">
-        <img src="res/img/lock.png" class="ct-img-lock nature-con">
-        <div class="amt nature-con"><img src="res/img/coins.png" class="amt-img"> 50</div>
-        <img src="res/img/tick.png" class="ct-img nature-img">
+        <img src="res/img/tick.png" class="ct-img India-img">
     </div>
-    <div class="ct-txt">Nature</div>
+    <div class="ct-txt">India</div>
 </div>
-<div class="ct">
-    <div class="ct-txt">More Coming Soon</div>
+<!--c-->
+<div class="ct" id="Kerala">
+    <div class="tick-bg">
+        <img src="res/img/tick.png" class="ct-img Kerala-img">
+    </div>
+    <div class="ct-txt">Kerala</div>
 </div>
+<!--f-->
+<div class="ct" id="Nature">
+    <div class="tick-bg">
+        <img src="res/img/lock.png" class="ct-img-lock Nature-lock">
+        <div class="amt Nature-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+        <img src="res/img/tick.png" class="ct-img Nature-img">
+    </div>
+    <div class="ct-txt">Nature & Animal</div>
 </div>
+<!--g-->
+<div class="ct" id="Science">
+    <div class="tick-bg">
+        <img src="res/img/lock.png" class="ct-img-lock Science-lock">
+        <div class="amt Science-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+        <img src="res/img/tick.png" class="ct-img Science-img">
+    </div>
+    <div class="ct-txt">Science</div>
 </div>
-<div class="toast">No enough coins to buy</div>
-<script>
-coins = parseInt(localStorage.getItem("coins")); $("#coins").html(coins);
+<!--h-->
+<div class="ct" id="Sports">
+    <div class="tick-bg">
+        <img src="res/img/lock.png" class="ct-img-lock Sports-lock">
+        <div class="amt Sports-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+        <img src="res/img/tick.png" class="ct-img Sports-img">
+    </div>
+    <div class="ct-txt">Sports</div>
+</div>
+<!--i-->
+<div class="ct" id="Technology">
+    <div class="tick-bg">
+        <img src="res/img/lock.png" class="ct-img-lock Technology-lock">
+        <div class="amt Technology-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+        <img src="res/img/tick.png" class="ct-img Technology-img">
+    </div>
+    <div class="ct-txt">Technology</div>
+</div>
+<!--d-->
+<div class="ct" id="World">
+    <div class="tick-bg">
+        <img src="res/img/lock.png" class="ct-img-lock World-lock">
+        <div class="amt World-con"><img src="res/img/coins.png" class="amt-img"> 200M</div>
+        <img src="res/img/tick.png" class="ct-img World-img">
+    </div>
+    <div class="ct-txt">World</div>
+</div>
 
-function Toast() {
+</div>
+</div>
+<div class="toast"></div>
+<script>
+coins = parseInt(localStorage.getItem("coins"));
+function ShowCoin()
+{
+    if (coins >= 1000 && coins < 1000000 ) {
+    $("#coins").html((coins/1000).toFixed(2) + "K");
+    } else if (coins >= 1000000 ) {
+    $("#coins").html((coins/1000000).toFixed(3) + "M");
+    } else {
+    $("#coins").html(coins);
+    }
+}
+ShowCoin();
+
+function Toast(toastStr) {
+$(".toast").html(toastStr);
 $(".toast").fadeIn(0);
 setTimeout(() => {$(".toast").fadeOut();}, 2000);
 }
 
-if (localStorage.getItem("nature") == 1) {
-$(".nature-con").fadeOut(0);
+Questions = JSON.parse(localStorage.Questions);
+quesCount = Questions.length;
+
+for (i = 0; i < Questions.length; i++)
+{
+    $("."+ Questions[i] + "-img").fadeIn(0);
 }
-ques = localStorage.getItem("ques");
-$("."+ques+"-img").fadeIn(0);
+
+fullQuestions = ["General","World", "India", "Kerala", "Science", "Sports", "Nature", "Technology"];
+for (x = 0; x < fullQuestions.length; x++)
+{
+    console.log(localStorage.getItem(fullQuestions[x]));
+    if (localStorage.getItem(fullQuestions[x]) == 1) {
+        $("."+ fullQuestions[x] + "-lock").fadeOut(0);
+        $("."+ fullQuestions[x] + "-con").fadeOut(0);
+    }
+}
+
 
 $(".ct").click(function() {
 document.getElementById("click-audio").play();
-});
-$(".all-ct").click(function() {
-if (localStorage.getItem("ques") != "all") {
-console.log("blah");
-localStorage.setItem("ques", "all");
-$(".ct-img").css({visibility:'hidden'});
-$(".all-img").fadeIn(0); $(".all-img").css({visibility:'visible'});
+
+tmpVar = $(this).attr('id');
+console.log("Id issssssssssss "+ tmpVar);
+if (localStorage.getItem(tmpVar) == 1) { // 1 means bought for coins
+CheckSelect(tmpVar);
+} else {
+if (coins >= 200000000) {
+coins -= 200000000; localStorage.setItem("coins", coins); 
+ShowCoin();
+localStorage.setItem(tmpVar, 1);
+AddString(tmpVar);
+} else {Toast("No enough coins to buy");}
 }
 });
 
-$(".nature-ct").click(function() {
-if (localStorage.getItem("nature") == 1) {
-localStorage.setItem("ques", "nature");
-$(".ct-img").css({visibility:'hidden'});
-$(".nature-con").fadeOut(0); $(".nature-img").fadeIn(0); $(".nature-img").css({visibility:'visible'});
-} else {
-if (coins >= 50) {
-coins -= 50; localStorage.setItem("coins", coins); $("#coins").html(coins);
-localStorage.setItem("ques", "nature"); localStorage.setItem("nature", 1);
-$(".ct-img").css({visibility:'hidden'});
-$(".nature-con").fadeOut(0); $(".nature-img").fadeIn(0); $(".nature-img").css({visibility:'visible'});
-} else {Toast();}
+function CheckSelect(str)
+{
+    console.log(str);
+    console.log(Questions.length);
+    tmpBool = false;
+    for (i = 0; i < Questions.length; i++)
+    {
+    console.log(i);
+        if (Questions[i] == str) {
+            //string already present in array
+            console.log("string already present in array");
+            tmpBool = true;
+            if (quesCount > 2) {
+                Questions.splice(Questions.indexOf(str), 1);
+                localStorage.Questions = JSON.stringify(Questions);
+                $(".ct-img").css({visibility:'visible'});
+                 $("."+ str +"-img").fadeOut(0); $("."+ str +"-img").css({visibility:'visible'});
+                quesCount = Questions.length;
+            } else {
+                Toast("Minimum 2 have to select");
+            }
+
+        }
+        if (i == (Questions.length - 1) && !tmpBool) {
+            //Add string to array
+            console.log("Add string to array");
+            AddString(str);
+            return;
+        }
+    }
 }
-});
+
+function AddString(str)
+{
+    str = str;
+    Questions.push(str);
+    console.log(Questions);
+    localStorage.Questions = JSON.stringify(Questions);
+    $("." + str + "-lock").fadeOut(0);
+    $("." + str +"-con").fadeOut(0); $("."+ str +"-img").fadeIn(0); $("."+ str +"-img").css({visibility:'visible'});
+    quesCount = Questions.length;
+}
 </script>
 </body>
 </html>

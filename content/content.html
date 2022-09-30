@@ -35,18 +35,19 @@ width: 100vw; height: 40vh;
 position: relative; display: flex; align-items: center;
 }
 .level-bg {
-width: 13vw; margin-left: 2vw;
+width: 35vw; margin-left: 2vw;
 display: flex; flex-wrap: wrap; justify-content: center;
 animation: g-o 400ms ease 1;
 }
 .level-ct-bg {
-width: 10vw; display: flex; margin-top: .5vh;
+width: 28vw; display: flex; margin-top: .5vh;
 }
 .tri {
 width: 1.3vw; height: 1.3vw; border: solid .7vw #d5d7d5;
 transform: rotate(45deg); margin-right: 1vw;
 }
 .lev-txt {
+width: 4vw;
 margin-left: 1vw; font-size: 3vw;
 }
 .logo-img {
@@ -285,12 +286,12 @@ width: 30vw; height: 30vw;
 width: 100vw; font-size: 12vw; text-align: center;
 }
 .got-txt {
-display: flex; align-items: center; font-size: 8vw;
+display: flex; flex-wrap: wrap; align-items: center; font-size: 8vw;
+justify-content: center;
 }
-
 .reward-bg {
 display: flex; padding-left: 1vw; color: #00e800;
-font-size: 11vw;
+font-size: 9vw;
 }
 .reward-coin {
 width: 8vw; height: 8vw; margin-left: 2vw;
@@ -306,34 +307,111 @@ width: 30vw; height: 30vw;
 transition: none; transform: scale(.95);
 }
 #let {color: #d7934f;}
+
+.pricebg {
+    display: flex;
+}
+.pricebg5, .pricebg10, .pricebg15 {
+    color: #00ff00;
+}
+
+.price-img {
+    width: 3vw;
+    height: 3vw;
+}
+.price-txt {
+    font-size: 2.5vw;
+}
 </style>
 <div class="game-over-con">
 <img src="res/img/logo.png" class="g-o-logo">
 
 <div class="congrats">Congratulation</div>
-<div class="got-txt">You got: <div class="reward-bg">  + <div id="reward">5</div></div><img src="res/img/coins.png" class="reward-coin"></div>
+<div class="got-txt">
+    <div class="reward-bg">  + <div id="reward">0</div></div><img src="res/img/coins.png" class="reward-coin"></div>
 <div class="btn-bg">
 <img src="res/img/retry.png" class="btn retry">
 <img src="res/img/home.png" class="btn home">
 </div>
 </div>
 
-<script src="res/var/all/all-easy.js"></script>
-<script src="res/var/all/all-hard.js"></script>
+<!--a-->
+<script src="res/var/General/easy.js"></script>
+<script src="res/var/General/hard.js"></script>
+<!--b-->
+<script src="res/var/India/easy.js"></script>
+<script src="res/var/India/hard.js"></script>
+<!--c-->
+<script src="res/var/Kerala/easy.js"></script>
+<script src="res/var/Kerala/hard.js"></script>
+<!--d-->
+<script src="res/var/World/easy.js"></script>
+<script src="res/var/World/hard.js"></script>
+<!--f-->
+<script src="res/var/Nature/easy.js"></script>
+<script src="res/var/Nature/hard.js"></script>
+<!--g-->
+<script src="res/var/Science/easy.js"></script>
+<script src="res/var/Science/hard.js"></script>
+<!--h-->
+<script src="res/var/Sports/easy.js"></script>
+<script src="res/var/Sports/hard.js"></script>
+<!--i-->
+<script src="res/var/Technology/easy.js"></script>
+<script src="res/var/Technology/hard.js"></script>
 
-<script src="res/var/nature/nature-easy.js"></script>
-<script src="res/var/nature/nature-hard.js"></script>
 <script>
 
 if (localStorage.getItem("inter") == null) {
 inter = 0; localStorage.setItem("inter", 0);
 } else {inter = localStorage.getItem("inter");}
 
-if (localStorage.getItem("ques") == "all") {ques = "b";}
-if (localStorage.getItem("ques") == "nature") {ques = "n";}
+function checkNumber(i) {
+    if (i == 1)
+        tmpAmt = "1000";
+    if (i == 2)
+        tmpAmt = "2000";
+    if (i == 3)
+        tmpAmt = "3000";
+    if (i == 4)
+        tmpAmt = "5000";
+    if (i == 5)
+        tmpAmt = "10,000";
+    if (i == 6)
+        tmpAmt = "20,000";
+    if (i == 7)
+        tmpAmt = "40,000";
+    if (i == 8)
+        tmpAmt = "80,000";
+    if (i == 9)
+        tmpAmt = "1,60,000";
+    if (i == 10)
+        tmpAmt = "3,20,000";
+    if (i == 11)
+        tmpAmt = "6,40,000";
+    if (i == 12)
+        tmpAmt = "12,50,000";
+    if (i == 13)
+        tmpAmt = "25,00,000";
+    if (i == 14)
+        tmpAmt = "50,00,000";
+    if (i == 15)
+        tmpAmt = "1,00,00,000";
+}
+
+
 for (let i = 1; i <= 15; i++) {
+
+checkNumber(i);
 $(".level-bg").prepend(`
-<div class="level-ct-bg"><div class="tri tri${i}"></div><div class="lev-txt lev-txt${i}">${i}</div></div>
+<div class="level-ct-bg">
+    <div class="tri tri${i}"></div>
+    <div class="lev-txt lev-txt${i}">${i}</div>
+    <div class="pricebg pricebg${i}">
+        <img src="res/img/coins.png" class="price-img">
+        <div class="price-txt">${tmpAmt}</div>
+    </div>
+</div>
 `);
 }
 
@@ -346,12 +424,13 @@ allFunction();
 function allFunction() {
 level = 1;
 
-lang = localStorage.getItem("lang");
-total_answers = localStorage.getItem("total_answers");
-correct_answers = localStorage.getItem("correct_answers");
-wrong_answers = localStorage.getItem("wrong_answers");
-games_played = localStorage.getItem("games_played");
-games_won = localStorage.getItem("games_won");
+lang = localStorage.lang;
+total_answers = localStorage.total_answers;
+correct_answers = localStorage.correct_answers;
+wrong_answers = localStorage.wrong_answers;
+games_played = localStorage.games_played;
+games_won = localStorage.games_won;
+Questions = JSON.parse(localStorage.Questions);
 
 function maFunction() {
 $(".ques-txt").css({fontSize:'3.5vw', fontFamily:'BalooChettan'});
@@ -366,7 +445,33 @@ if (lang == "en") {
     maFunction();
 }
 
+function checkType()
+{
+
+    tmpCount = Math.floor(Math.random() * Questions.length);
+    type = Questions[tmpCount];
+    console.log("Type is "+type);
+    if (type == "General")
+        ques = "a";
+    if (type == "India")
+        ques = "b";
+    if (type == "Kerala")
+        ques = "c";
+    if (type == "World")
+        ques = "d";
+    if (type == "Nature")
+        ques = "f";
+    if (type == "Science")
+        ques = "g";
+    if (type == "Sports")
+        ques = "h";
+    if (type == "Technology")
+        ques = "i";
+
+}
+
 function checkRepeat() {
+checkType();
 if (level <= 5) {
 shuffleVar = Math.floor(Math.random() * window[ques+"_eTotal"] + 1);
 } else {
@@ -384,7 +489,6 @@ if ((arrayVar.length - 1) == i) {
 if (appendBool) {
 arrayVar.push(shuffleVar);
 apppendAll();   
-console.log("completed");
 break;
 }
 }    
@@ -392,7 +496,10 @@ break;
 } 
 checkRepeat();
 
+
+
 function apppendAll() {
+
 $(".tri").css({borderColor:"#d5d7d5"}); $(".tri"+level).css({borderColor:'#d7934f'});
 $(".lev-txt").css({color:'#d5d7d5'}); $(".lev-txt"+level).css({color:'#d7934f'}); 
 
@@ -411,13 +518,13 @@ $(".txtC").html("<span id='let'>C. </span> " + window[ques+"-h-C"+shuffleVar]);
 $(".txtD").html("<span id='let'>D. </span> " + window[ques+"-h-D"+shuffleVar]);
 Ans = window[ques+"-h-ans"+shuffleVar];
 }
-
+console.log("Ans is "+ Ans);
 
 Correct = false; Action = true;
 $(".txt"+Ans).click(function() {
 if (Action) {
 Correct = true;
-correct_answers++; localStorage.setItem("correct_answers", correct_answers);
+correct_answers++; localStorage.correct_answers = correct_answers;
 }
 });
 
@@ -475,16 +582,18 @@ $(".txt2, .txt3, .txt1").click(function() {loseAudio();});
 
 $(".ans-txt").click(function() {
 if (Action) {
-total_answers++; localStorage.setItem("total_answers", total_answers);
+total_answers++; localStorage.total_answers = total_answers;
 Action = false;
 clearInterval(intervalTimer);
 if (Correct) { Correct = false;
 $(this).css({backgroundImage:"url(res/img/button-green.png)"});
 if (level == 15) {
 //you win
+reward = 10000000;
+$("#reward").html("1,00,00,000");
 document.getElementById("intro-audio").play();
 gameOver();
-games_won++; localStorage.setItem("games_won", games_won);
+games_won++; localStorage.games_won = games_won;
 } else {
 //progress
 level++;
@@ -493,7 +602,7 @@ setTimeout(() => {Next(); }, 2000);
 } else {
 $(this).css({backgroundImage:"url(res/img/button-red.png)"});
 $(".txt"+Ans).css({backgroundImage:"url(res/img/button-green.png)"});
-wrong_answers++; localStorage.setItem("wrong_answers", wrong_answers);
+wrong_answers++; localStorage.wrong_answers = wrong_answers;
 setTimeout(() => {
 gameOver();
 }, 400);
@@ -532,21 +641,27 @@ runTimer();
 function gameOver() {
 games_played++; localStorage.setItem("games_played", games_played);
 localStorage.setItem("gameplay", 0);
-$("#reward").html(level);
-if (level > 2) {
-$("#reward").html(level);
-coins = parseInt(localStorage.getItem("coins")); 
-coins += level; localStorage.setItem("coins", coins);
-} else {
-$("#reward").html(0);
+if (level <= 5) {
+    reward = 0;
+    $("#reward").html(reward);
+} else if (level > 5 && level <= 10) {
+    reward = 10000;
+    $("#reward").html("10,000");
+} else if (level > 10 && level < 15)
+{
+    reward = 320000;
+    $("#reward").html("3,20,000");
 }
+coins =  parseInt(localStorage.coins);
+coins += parseInt(reward);
+localStorage.coins = coins
 $(".game-over-con").css({display:'flex'});
 setTimeout(() => {
 $(".top, .ques-bg, .timer-bg, .ans-bg").css({display:'none'});
 }, 250);
 
 inter++; localStorage.setItem("inter", inter);
-if (inter == 4) {
+if (inter >= 3) {
 inter=0; localStorage.setItem("inter", inter);
 parent.location="https://inter";
 }
