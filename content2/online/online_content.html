@@ -596,6 +596,7 @@ correct_answers = localStorage.correct_answers; online_correct_answers = localSt
 wrong_answers = localStorage.wrong_answers; online_wrong_answers = localStorage.online_wrong_answers;
 games_played = localStorage.games_played; online_games_played = localStorage.online_games_played;
 games_won = localStorage.games_won; online_games_won = localStorage.online_games_won;
+online_games_lose = localStorage.online_games_lose;
 Questions = JSON.parse(localStorage.Questions);
 
 opponentLeaved = false;
@@ -788,8 +789,6 @@ if (answeredCount >= 2)
         setTimeout(() => {gameOver();}, 900);
     }
 }
-games_won++; localStorage.games_won = games_won;
-online_games_won++; localStorage.online_games_won = online_games_won;
 } else {
 //progress
 level++;
@@ -903,6 +902,7 @@ if (winner == "player") {
     console.log("You Win!!");
     coins += (investedAmt *2);
     localStorage.coins = coins;
+    online_games_won++; localStorage.online_games_won = online_games_won;
     $("#reward").html(investedAmt * 2).css({color:'green'});
     $(".congrats").html("You Win!").css({color:'green'});
 } else if (winner == "opponent") {
@@ -910,6 +910,7 @@ if (winner == "player") {
     console.log("You Lose!!");
     $("#reward").html(investedAmt).css({color:'red'});
     $(".congrats").html("You Lose!").css({color:'red'});
+    online_games_lose++; localStorage.online_games_lose = online_games_lose;
 } else if ("xpCheck")
 {
     if (myScore > opponentScore)
@@ -918,6 +919,7 @@ if (winner == "player") {
         localStorage.coins = coins;
         $("#reward").html(investedAmt * 2).css({color:'green'});
         $(".congrats").html("You Win!").css({color:'green'});
+        online_games_won++; localStorage.online_games_won = online_games_won;
     }
     else if (opponentScore > myScore)
     {
@@ -925,6 +927,7 @@ if (winner == "player") {
         console.log("You Lose!!");
         $("#reward").html(investedAmt).css({color:'red'});
         $(".congrats").html("You Lose!").css({color:'red'});
+        online_games_lose++; localStorage.online_games_lose = online_games_lose;
     }
     else if (opponentScore == myScore)
     {

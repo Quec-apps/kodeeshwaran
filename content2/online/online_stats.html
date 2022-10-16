@@ -119,6 +119,13 @@ transition: transform 300ms ease;
 </div>
 </div>
 
+<div class="button-bg ques">
+<div class="button-stick"></div>
+<div class="button">
+    <div class="txt">Games lose</div><div class="txt2 games_lose">0</div>
+</div>
+</div>
+
 </div>
 <script>
 total_answers = localStorage.online_total_answers;
@@ -126,6 +133,7 @@ correct_answers = localStorage.online_correct_answers;
 wrong_answers = localStorage.online_wrong_answers;
 games_played = localStorage.online_games_played;
 games_won = localStorage.online_games_won;
+games_lose = localStorage.online_games_lose;
 percent = ((correct_answers / total_answers) * 100).toFixed(0);
 
 $(".total_answers").html(total_answers);
@@ -133,6 +141,7 @@ $(".correct_answers").html(correct_answers);
 $(".wrong_answers").html(wrong_answers);
 $(".games_played").html(games_played);
 $(".games_won").html(games_won);
+$(".games_lose").html(games_lose);
 $(".percent").html(percent);
 </script>
 </body>
