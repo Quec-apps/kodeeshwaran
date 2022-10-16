@@ -303,6 +303,12 @@ font-size: 4vw;
 
 <div class="toast"></div>
 <script>
+setInterval(() => {
+    if (!navigator.onLine) {
+        location.href="error.html";
+    }
+}, 2000);
+
 localStorage.setItem("gameplay", 0);
 coins = parseInt(localStorage.coins);
 investNumber = parseInt(localStorage.investNumber);

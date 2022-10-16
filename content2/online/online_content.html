@@ -548,6 +548,12 @@ transition: none; transform: scale(.95);
 <div class="toast"></div>
 
 <script>
+setInterval(() => {
+    if (!navigator.onLine) {
+        location.href="error.html";
+    }
+}, 2000);
+
 
 if (localStorage.getItem("inter") == null) {
 inter = 0; localStorage.setItem("inter", 0);
