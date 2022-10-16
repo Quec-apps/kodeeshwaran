@@ -319,6 +319,7 @@ if (localStorage.online_total_answers == null) {
     online_wrong_answers = localStorage.setItem("online_wrong_answers", 0);
     online_games_played = localStorage.setItem("online_games_played", 0);
     online_games_won = localStorage.setItem("online_games_won", 0);
+    online_games_lose = localStorage.setItem("online_games_lose", 0);
 
 }
 
@@ -345,7 +346,7 @@ function Outro() {
     setTimeout(() => {$(".button").css({transform:'translateX(150%)'});}, 100);
     setTimeout(() => {$(".guess-bg").css({transform:'translateX(100%)', opacity:'0'});}, 100);
     setTimeout(() => {$(".button-stick").css({transform:'translateX(-100%)'});}, 300);
-    setTimeout(() => {$(".logo-img, .coins, .rating-bg").css({transform:'scale(1.2)', opacity:'0'});}, 300);
+    setTimeout(() => {$(".logo-img, .coins, .rating-bg, .mid").css({transform:'scale(1.2)', opacity:'0'});}, 300);
 }
 
 $(".play").click(function() {

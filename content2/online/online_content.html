@@ -792,6 +792,10 @@ if (answeredCount >= 2)
 } else {
 //progress
 level++;
+if (answeredCount < 2)
+{
+    Toast("Waiting for opponent");
+}
 setTimeout(() => {
     if (answeredCount >= 2) {
         if (opponentStatus == "fail") {
@@ -802,7 +806,6 @@ setTimeout(() => {
     } else
     {
         console.log("Waiting for opponent");
-        Toast("Waiting for opponent");
     }
     
 }, 2000);
@@ -810,6 +813,11 @@ setTimeout(() => {
 } else {
 playerStatus = "fail";
 $(".player-cross-img").fadeIn(0);
+
+if (answeredCount < 2)
+{
+    Toast("Waiting for opponent");
+}
 
 if (answeredCount >= 2) {
     if (opponentStatus == "fail") {
@@ -911,7 +919,7 @@ if (winner == "player") {
     $("#reward").html(investedAmt).css({color:'red'});
     $(".congrats").html("You Lose!").css({color:'red'});
     online_games_lose++; localStorage.online_games_lose = online_games_lose;
-} else if ("xpCheck")
+} else if (winner == "xpCheck")
 {
     if (myScore > opponentScore)
     {
@@ -1003,7 +1011,7 @@ function OpponentAnswerSelect()
         answerMinWait = 4;
         answerMaxWait = 20;
     }
-    willWrongAnswer = Math.floor(Math.random() * 10 +1);
+    willWrongAnswer = Math.floor(Math.random() * 2 +1);
     waitTime = Math.floor(Math.random() * (answerMaxWait - answerMinWait + 1) + answerMinWait);
     console.log("Wait time is "+waitTime);
     setTimeout(() => {
@@ -1016,7 +1024,7 @@ function OpponentAnswerSelect()
             if (answeredCount >=2) {
                 if (playerStatus == "fail") {
                     document.getElementById("win-audio").play();
-                    winner = "opponent";
+                    winner = "xpCheck";
                     setTimeout(() => {gameOver();}, 900);
                 } else {
                     document.getElementById("lose-audio").play();
