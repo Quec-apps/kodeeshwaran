@@ -1011,7 +1011,7 @@ function OpponentAnswerSelect()
         answerMinWait = 4;
         answerMaxWait = 20;
     }
-    willWrongAnswer = Math.floor(Math.random() * 2 +1);
+    willWrongAnswer = Math.floor(Math.random() * 9 +1);
     waitTime = Math.floor(Math.random() * (answerMaxWait - answerMinWait + 1) + answerMinWait);
     console.log("Wait time is "+waitTime);
     setTimeout(() => {
