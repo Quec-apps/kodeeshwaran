@@ -866,8 +866,8 @@ document.getElementById("lose-audio").play();
 runTimer();
 
 function CheckOpponentLeaved() {
-    leaveMinWait = 6;
-    leaveMaxWait = 10;
+    leaveMinWait = 8;
+    leaveMaxWait = 20;
     leaveWaitTime = Math.floor(Math.random() * (leaveMaxWait - leaveMinWait + 1) + leaveMinWait);
     setTimeout(() => {
         opponentLeaved = true;
@@ -1065,8 +1065,8 @@ function OpponentAnswerSelect()
 
 function SendRandomRequest()
 {
-    MinTime = 2;
-    MaxTime = 7;
+    MinTime = 1;
+    MaxTime = 5;
     tmpCount = Math.floor(Math.random() * (MaxTime - MinTime + 1) + MinTime);
     tmpTime = Math.floor(Math.random() * (MaxTime - MinTime + 1) + MinTime);
     if (tmpCount == 3 && !matchRequested)
