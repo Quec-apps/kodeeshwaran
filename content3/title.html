@@ -120,7 +120,7 @@ transform: scale(.95);
 
 .btm {
 width: 100vw; height: 10vh;
-display: flex; justify-content: flex-end;
+display: flex; justify-content: center;
 align-items: center;
 }
 
@@ -194,11 +194,12 @@ width: 100%;
 text-align: center;
 }
 .guess-bg {
-width: 60vw; margin-right: 2vw;
+width: 97vw; height: 100%;
+overflow: hidden;
 background-color: #d5d7d5;
 color: #23105f;
 border-radius: 10px;
-padding: .5vh 2vw;
+padding: .5vh 0vw;
 display: flex; align-items: center;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -210,8 +211,8 @@ animation: guess-bg 400ms ease 1;
 } .guess-bg:active {
 transition: none; opacity: .5;
 }
-.guess-img {
-width: 11vw; height: 11vw;
+.ad-img {
+width: 100%;
 }
 .guess-txt {
 font-size: 4vw;
@@ -220,8 +221,7 @@ font-size: 4vw;
 <div class="btm">
 <div class="guess-bg">
 <div class="guess-ad-txt">Advertisement</div>
-<img src="res/img/guess-icon.png" class="guess-img">
-<div class="guess-txt">Guess Malayalam Movie</div>
+<img src="" class="ad-img">
 </div>
 </div>
 </div>
@@ -266,6 +266,17 @@ font-size: 4vw;
 <div class="toast"></div>
 <script>
 localStorage.setItem("gameplay", 0);
+
+adVar = Math.floor(Math.random() * 4 + 1);
+$(".ad-img").attr("src", "res/img/ad/"+adVar+".png");
+
+if (adVar == 1 || adVar == 2)
+    link = "https://play.google.com/store/apps/details?id=com.quec.brain.hit";
+if (adVar == 3)
+    link = "https://play.google.com/store/apps/details?id=com.quec.guess.malayalam";
+if (adVar == 4)
+    link = "https://play.google.com/store/apps/details?id=com.quec.name.the.image";
+
 function allFunction() {
 
 if (localStorage.Questions == null) {
@@ -385,7 +396,7 @@ setTimeout(() => {
 document.getElementById("click-audio").play();
 }, 200);
 setTimeout(() => {
-parent.location="https://play.google.com/store/apps/details?id=com.quec.guess.malayalam";
+parent.location = link;
 }, 600);
 });
 
