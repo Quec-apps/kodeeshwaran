@@ -255,4 +255,910 @@ window["i-h-ans"+i] = 2;
 
 
 
+
+//ai generated
+
+
+
+i++
+window["i-h-q-ma"+i] = "ഇമെയിലുകൾ അയയ്‌ക്കാനും സ്വീകരിക്കാനും നിങ്ങളെ അനുവദിക്കുന്ന സോഫ്റ്റ്‌വെയർ ഏത്?";
+window["i-h-q-en"+i] = "What type of software allows you to send and receive emails?";
+window["i-h-A"+i] = "Email client";
+window["i-h-B"+i] = "Text editor";
+window["i-h-C"+i] = "Media player";
+window["i-h-D"+i] = "Image editor";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഇന്റർനെറ്റിൽ ഫയൽ കൈമാറ്റത്തിന് ഉപയോഗിക്കുന്ന പ്രോട്ടോക്കോൾ ഏതാണ്?";
+window["i-h-q-en"+i] = "Which protocol is used for file transfer on the internet?";
+window["i-h-A"+i] = "HTTP";
+window["i-h-B"+i] = "FTP";
+window["i-h-C"+i] = "DNS";
+window["i-h-D"+i] = "SMTP";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു കമ്പ്യൂട്ടർ നെറ്റ്‌വർക്കിലെ റൂട്ടറിന്റെ പ്രധാന പ്രവർത്തനം എന്താണ്?";
+window["i-h-q-en"+i] = "What is the main function of a router in a computer network?";
+window["i-h-A"+i] = "Data storage";
+window["i-h-B"+i] = "Data encryption";
+window["i-h-C"+i] = "Data transmission";
+window["i-h-D"+i] = "Data routing";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "പേഴ്സണൽ കമ്പ്യൂട്ടറുകൾക്കായി ഏറ്റവും വ്യാപകമായി ഉപയോഗിക്കുന്ന ഓപ്പറേറ്റിംഗ് സിസ്റ്റം ഏതാണ്?";
+window["i-h-q-en"+i] = "What is the most widely used operating system for personal computers?";
+window["i-h-A"+i] = "Mac OS";
+window["i-h-B"+i] = "Windows";
+window["i-h-C"+i] = "Linux";
+window["i-h-D"+i] = "Unix";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഡൈനാമിക് വെബ് പേജുകൾ സൃഷ്ടിക്കാൻ ഉപയോഗിക്കുന്ന പ്രോഗ്രാമിംഗ് ഭാഷ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the programming language used to create dynamic web pages?";
+window["i-h-A"+i] = "Python";
+window["i-h-B"+i] = "Java";
+window["i-h-C"+i] = "PHP";
+window["i-h-D"+i] = "Ruby";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു കമ്പ്യൂട്ടർ നെറ്റ്‌വർക്കിലെ സെർവറിന്റെ പ്രാഥമിക പ്രവർത്തനം എന്താണ്?";
+window["i-h-q-en"+i] = "What is the primary function of a server in a computer network?";
+window["i-h-A"+i] = "Data storage";
+window["i-h-B"+i] = "Data processing";
+window["i-h-C"+i] = "Data transmission";
+window["i-h-D"+i] = "Data routing";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു കമ്പ്യൂട്ടറിന് എക്സിക്യൂട്ട് ചെയ്യാൻ കഴിയുന്ന ഒരു രൂപത്തിലേക്ക് കോഡ് പരിവർത്തനം ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting code into a form that can be executed by a computer called?";
+window["i-h-A"+i] = "Encryption";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Decompression";
+window["i-h-D"+i] = "Compilation";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഡാറ്റയും പ്രോഗ്രാമുകളും സംഭരിക്കുന്ന കമ്പ്യൂട്ടറിന്റെ പ്രധാന ഘടകം എന്താണ്?";
+window["i-h-q-en"+i] = "What is the main component of a computer that stores data and programs?";
+window["i-h-A"+i] = "Motherboard";
+window["i-h-B"+i] = "Hard disk drive";
+window["i-h-C"+i] = "Random access memory";
+window["i-h-D"+i] = "Graphics card";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഡാറ്റ പരിരക്ഷിക്കുന്നതിനായി ഒരു കോഡാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting data into a code to protect it called?";
+window["i-h-A"+i] = "Compression";
+window["i-h-B"+i] = "Decompression";
+window["i-h-C"+i] = "Encryption";
+window["i-h-D"+i] = "Decryption";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ ഒരു ഉപകരണത്തിൽ നിന്ന് മറ്റൊന്നിലേക്ക് ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data from one device to another over a network called?";
+window["i-h-A"+i] = "Streaming";
+window["i-h-B"+i] = "Broadcasting";
+window["i-h-C"+i] = "Uploading";
+window["i-h-D"+i] = "Downloading";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ ബന്ധിപ്പിക്കുന്നതിനും പങ്കിടുന്നതിനും ഒന്നിലധികം ഉപകരണങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയുടെ പേരെന്താണ്?";
+window["i-h-q-en"+i] = "What is the name of the technology that enables multiple devices to connect and share data over a network?";
+window["i-h-A"+i] = "Cloud computing";
+window["i-h-B"+i] = "Wireless networking";
+window["i-h-C"+i] = "Wired networking";
+window["i-h-D"+i] = "Distributed computing";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഇന്റർനെറ്റിലൂടെ വിദൂരമായി ഡാറ്റയും ആപ്ലിക്കേഷനുകളും ആക്സസ് ചെയ്യാനും കൈകാര്യം ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to access and manipulate data and applications remotely through the internet called?";
+window["i-h-A"+i] = "Remote desktop";
+window["i-h-B"+i] = "Virtual reality";
+window["i-h-C"+i] = "Cloud computing";
+window["i-h-D"+i] = "Artificial intelligence";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "വയർഡ് കണക്ഷനില്ലാതെ ഇന്റർനെറ്റ് ആക്സസ് ചെയ്യാൻ നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to access the internet without a wired connection called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "NFC";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു വലിയ ഡാറ്റാ ഫയലിനെ ചെറിയ കഷണങ്ങളായി വിഭജിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of dividing a large data file into smaller pieces called?";
+window["i-h-A"+i] = "Compression";
+window["i-h-B"+i] = "Encryption";
+window["i-h-C"+i] = "Decompression";
+window["i-h-D"+i] = "Segmentation";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "നിങ്ങളുടെ മൊബൈൽ ഫോൺ മറ്റ് ഉപകരണങ്ങൾക്കായി റിമോട്ട് കൺട്രോളായി ഉപയോഗിക്കാൻ നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to use your mobile phone as a remote control for other devices called?";
+window["i-h-A"+i] = "NFC";
+window["i-h-B"+i] = "Bluetooth";
+window["i-h-C"+i] = "Wi-Fi";
+window["i-h-D"+i] = "Infrared";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ ഒരു ഉപകരണത്തിൽ നിന്ന് മറ്റൊന്നിലേക്ക് ഡാറ്റ അയയ്ക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of sending data from a device to another over a network called?";
+window["i-h-A"+i] = "Streaming";
+window["i-h-B"+i] = "Broadcasting";
+window["i-h-C"+i] = "Downloading";
+window["i-h-D"+i] = "Uploading";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഇന്റർനെറ്റിലൂടെ ഡാറ്റയും ആപ്ലിക്കേഷനുകളും സംഭരിക്കാനും ആക്‌സസ് ചെയ്യാനും നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to store and access data and applications over the internet called?";
+window["i-h-A"+i] = "Cloud computing";
+window["i-h-B"+i] = "Grid computing";
+window["i-h-C"+i] = "Peer-to-peer computing";
+window["i-h-D"+i] = "Edge computing";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "അനധികൃത ആക്‌സസ്സിൽ നിന്ന് ഡാറ്റ പരിരക്ഷിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of protecting data from unauthorized access called?";
+window["i-h-A"+i] = "Decryption";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Encryption";
+window["i-h-D"+i] = "Decompression";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും നിങ്ങളുടെ ശബ്ദം ഉപയോഗിക്കാൻ നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to use your voice to control and operate digital devices called?";
+window["i-h-A"+i] = "Voice recognition";
+window["i-h-B"+i] = "Voice synthesis";
+window["i-h-C"+i] = "Voice modulation";
+window["i-h-D"+i] = "Voice encryption";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "രണ്ട് ഉപകരണങ്ങളെ ചെറിയ ദൂരത്തിൽ പരസ്പരം വയർലെസ് ആയി ആശയവിനിമയം നടത്താൻ സഹായിക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables two devices to communicate wirelessly with each other over a short distance called?";
+window["i-h-A"+i] = "Bluetooth";
+window["i-h-B"+i] = "NFC";
+window["i-h-C"+i] = "Wi-Fi";
+window["i-h-D"+i] = "ZigBee";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "അനലോഗ് സിഗ്നലുകളെ ഡിജിറ്റൽ സിഗ്നലുകളാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting analog signals into digital signals called?";
+window["i-h-A"+i] = "Decompression";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Sampling";
+window["i-h-D"+i] = "Quantization";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "വാഹനങ്ങളിൽ വയർലെസ് ഇന്റർനെറ്റ് കണക്റ്റിവിറ്റി സാധ്യമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables wireless internet connectivity in vehicles called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Bluetooth";
+window["i-h-C"+i] = "GPS";
+window["i-h-D"+i] = "Wi-Fi Direct";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "നിങ്ങളുടെ മൊബൈൽ ഫോൺ ഉപയോഗിച്ച് പേയ്‌മെന്റുകൾ നടത്താൻ നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to make payments using your mobile phone called?";
+window["i-h-A"+i] = "Mobile payment";
+window["i-h-B"+i] = "Mobile banking";
+window["i-h-C"+i] = "Mobile money";
+window["i-h-D"+i] = "Mobile wallet";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു സാറ്റലൈറ്റ് കണക്ഷൻ ഉപയോഗിച്ച് ഇന്റർനെറ്റിലേക്ക് കണക്റ്റുചെയ്യാൻ നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to connect to the internet using a satellite connection called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "Satellite internet";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "വിളിക്കപ്പെടുന്ന വോയ്‌സ് കണക്ഷനുപകരം ഡാറ്റ കണക്ഷൻ ഉപയോഗിച്ച് ഫോൺ വിളിക്കാനും സന്ദേശങ്ങൾ അയയ്‌ക്കാനും നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യ ഏതാണ്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to make phone calls and send messages using a data connection instead of a voice connection called?";
+window["i-h-A"+i] = "Voice over IP";
+window["i-h-B"+i] = "Voice over LTE";
+window["i-h-C"+i] = "Voice over Wi-Fi";
+window["i-h-D"+i] = "Voice over Bluetooth";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഹെഡ്‌സെറ്റ് ഉപയോഗിച്ച് വെർച്വൽ റിയാലിറ്റി പരിതസ്ഥിതികൾ ആക്‌സസ് ചെയ്യാനും കാണാനും നിങ്ങളെ അനുവദിക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that allows you to access and view virtual reality environments using a headset called?";
+window["i-h-A"+i] = "Virtual reality";
+window["i-h-B"+i] = "Augmented reality";
+window["i-h-C"+i] = "Mixed reality";
+window["i-h-D"+i] = "Extended reality";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "കൈ ആംഗ്യങ്ങൾ ഉപയോഗിച്ച് വസ്തുക്കളുടെ ചലനവും സ്ഥാനവും നിയന്ത്രിക്കാൻ നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to control the movement and position of objects using hand gestures called?";
+window["i-h-A"+i] = "Gesture recognition";
+window["i-h-B"+i] = "Face recognition";
+window["i-h-C"+i] = "Voice recognition";
+window["i-h-D"+i] = "Fingerprint recognition";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "കാന്തിക മണ്ഡലങ്ങൾ ഉപയോഗിച്ച് ഒരു സ്റ്റോറേജ് ഉപകരണത്തിൽ നിന്ന് ഡാറ്റ സംഭരിക്കാനും വീണ്ടെടുക്കാനും നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and retrieve data from a storage device using magnetic fields called?";
+window["i-h-A"+i] = "Hard disk drive";
+window["i-h-B"+i] = "Solid-state drive";
+window["i-h-C"+i] = "Floppy disk";
+window["i-h-D"+i] = "Optical disk";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ലേസർ ബീമുകൾ ഉപയോഗിച്ച് ഒരു സ്റ്റോറേജ് ഉപകരണത്തിൽ നിന്ന് ഡാറ്റ സംഭരിക്കാനും വീണ്ടെടുക്കാനും നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and retrieve data from a storage device using laser beams called?";
+window["i-h-A"+i] = "Hard disk drive";
+window["i-h-B"+i] = "Solid-state drive";
+window["i-h-C"+i] = "Floppy disk";
+window["i-h-D"+i] = "Optical disk";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "പാസ്‌വേഡും എൻക്രിപ്ഷനും ഉപയോഗിച്ച് ഡാറ്റ സുരക്ഷിതമായി സംഭരിക്കാനും ആക്‌സസ് ചെയ്യാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to securely store and access data using a password and encryption called?";
+window["i-h-A"+i] = "Cloud computing";
+window["i-h-B"+i] = "Data security";
+window["i-h-C"+i] = "Data privacy";
+window["i-h-D"+i] = "Data encryption";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "നിങ്ങളുടെ പ്രാദേശിക ഉപകരണത്തേക്കാൾ റിമോട്ട് സെർവറുകളിൽ ഡാറ്റയും ആപ്ലിക്കേഷനുകളും സംഭരിക്കാനും ആക്‌സസ് ചെയ്യാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and access data and applications on remote servers rather than on your local device called?";
+window["i-h-A"+i] = "Cloud computing";
+window["i-h-B"+i] = "Grid computing";
+window["i-h-C"+i] = "Peer-to-peer computing";
+window["i-h-D"+i] = "Edge computing";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "നിങ്ങളുടെ ശബ്ദ കമാൻഡുകൾ ഉപയോഗിച്ച് ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to control and operate digital devices using your voice commands called?";
+window["i-h-A"+i] = "Voice recognition";
+window["i-h-B"+i] = "Voice synthesis";
+window["i-h-C"+i] = "Voice modulation";
+window["i-h-D"+i] = "Voice encryption";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡാറ്റ ലഭ്യതയും വിശ്വാസ്യതയും ഉറപ്പാക്കാൻ ഒന്നിലധികം ഉപകരണങ്ങളിൽ ഡാറ്റ സംഭരിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of storing data on multiple devices to ensure data availability and reliability called?";
+window["i-h-A"+i] = "Data backup";
+window["i-h-B"+i] = "Data redundancy";
+window["i-h-C"+i] = "Data mirroring";
+window["i-h-D"+i] = "Data replication";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഇന്റർനെറ്റിലേക്ക് കണക്റ്റുചെയ്യാനും വേൾഡ് വൈഡ് വെബ് ആക്‌സസ് ചെയ്യാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to connect to the internet and access the world wide web called?";
+window["i-h-A"+i] = "Web browser";
+window["i-h-B"+i] = "Web server";
+window["i-h-C"+i] = "Web hosting";
+window["i-h-D"+i] = "Web portal";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "സ്റ്റോറേജ് സ്പേസ് ലാഭിക്കുന്നതിനായി അനാവശ്യ ഡാറ്റ നീക്കം ചെയ്യുകയും ഡാറ്റ കംപ്രസ് ചെയ്യുകയും ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of removing redundant data and compressing data to save storage space called?";
+window["i-h-A"+i] = "Decompression";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Sampling";
+window["i-h-D"+i] = "Quantization";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "നിങ്ങളുടെ പ്രാദേശിക ഉപകരണത്തേക്കാൾ റിമോട്ട് സെർവറുകളിൽ ഡാറ്റയും ആപ്ലിക്കേഷനുകളും സംഭരിക്കാനും ആക്‌സസ് ചെയ്യാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and access data and applications on remote servers rather than on your local device called?";
+window["i-h-A"+i] = "Cloud computing";
+window["i-h-B"+i] = "Grid computing";
+window["i-h-C"+i] = "Peer-to-peer computing";
+window["i-h-D"+i] = "Edge computing";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "നിങ്ങളുടെ ഉപകരണത്തിലെ ഡിസ്‌പ്ലേയുടെ തെളിച്ചവും വർണ്ണ താപനിലയും നിയന്ത്രിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to control the brightness and color temperature of the display on your device called?";
+window["i-h-A"+i] = "Color correction";
+window["i-h-B"+i] = "Color grading";
+window["i-h-C"+i] = "Color management";
+window["i-h-D"+i] = "Color calibration";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു മൊബൈൽ ഉപകരണ ക്യാമറ ഉപയോഗിച്ച് ഓഗ്‌മെന്റഡ് റിയാലിറ്റി പരിതസ്ഥിതികൾ ആക്‌സസ് ചെയ്യാനും കാണാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to access and view augmented reality environments using a mobile device camera called?";
+window["i-h-A"+i] = "Virtual reality";
+window["i-h-B"+i] = "Augmented reality";
+window["i-h-C"+i] = "Mixed reality";
+window["i-h-D"+i] = "Extended reality";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "റേഡിയോ തരംഗങ്ങൾ ഉപയോഗിച്ച് ഒരു വലിയ പ്രദേശത്ത് വയർലെസ് ആയി ഡാറ്റ ട്രാൻസ്മിറ്റ് ചെയ്യാൻ നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to transmit data wirelessly over a large area using radio waves called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "Cellular network";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഡാറ്റയെ ചെറിയ പാക്കറ്റുകളായി വിഭജിച്ച് ഒരു നെറ്റ്‌വർക്കിലുടനീളം കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of breaking down data into smaller packets and transmitting them across a network called?";
+window["i-h-A"+i] = "Data encapsulation";
+window["i-h-B"+i] = "Data fragmentation";
+window["i-h-C"+i] = "Data compression";
+window["i-h-D"+i] = "Data encryption";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "USB ഡ്രൈവുകൾ പോലുള്ള നീക്കം ചെയ്യാവുന്ന സ്റ്റോറേജ് ഉപകരണങ്ങളിൽ ഡാറ്റ സംഭരിക്കാനും ആക്സസ് ചെയ്യാനും നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and access data on removable storage devices such as USB drives called?";
+window["i-h-A"+i] = "External storage";
+window["i-h-B"+i] = "Internal storage";
+window["i-h-C"+i] = "Portable storage";
+window["i-h-D"+i] = "Removable storage";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഫയലിന്റെ വലിപ്പം കുറയ്ക്കാൻ ഡാറ്റ കംപ്രസ് ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of compressing data to reduce its file size called?";
+window["i-h-A"+i] = "Decompression";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Sampling";
+window["i-h-D"+i] = "Quantization";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ലൈറ്റ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using light signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും ടച്ച് സെൻസിറ്റീവ് ഡിസ്‌പ്ലേ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a touch-sensitive display to control and operate digital devices called?";
+window["i-h-A"+i] = "Touchscreen";
+window["i-h-B"+i] = "Touchpad";
+window["i-h-C"+i] = "Touch controller";
+window["i-h-D"+i] = "Touch sensor";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്��ൽ സിഗ്നലുകളെ അനലോഗ് സിഗ്നലുകളാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting digital signals back into analog signals called?";
+window["i-h-A"+i] = "Decompression";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Sampling";
+window["i-h-D"+i] = "Digital-to-analog conversion";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ഡിജിറ്റൽ ഉപകരണത്തിലേക്ക് ഡാറ്റ നൽകുന്നതിന് ഫിസിക്കൽ കീബോർഡ് ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a physical keyboard to enter data into a digital device called?";
+window["i-h-A"+i] = "Physical keyboard";
+window["i-h-B"+i] = "Virtual keyboard";
+window["i-h-C"+i] = "Touch keyboard";
+window["i-h-D"+i] = "On-screen keyboard";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഇൻഫ്രാറെഡ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to transmit data over a network using infrared signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഇന്റർനെറ്റ് വഴി റിമോട്ട് സെർവറുകളിൽ ഡാറ്റ സംഭരിക്കാനും ആക്‌സസ് ചെയ്യാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and access data on remote servers over the internet called?";
+window["i-h-A"+i] = "Cloud storage";
+window["i-h-B"+i] = "Grid storage";
+window["i-h-C"+i] = "Peer-to-peer storage";
+window["i-h-D"+i] = "Edge storage";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "അനധികൃത ആക്‌സസ്സിൽ നിന്ന് ഡാറ്റയെ സംരക്ഷിക്കാൻ എൻക്രിപ്റ്റ് ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of encrypting data to protect it from unauthorized access called?";
+window["i-h-A"+i] = "Data encryption";
+window["i-h-B"+i] = "Data decryption";
+window["i-h-C"+i] = "Data compression";
+window["i-h-D"+i] = "Data hashing";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഓഡിയോ സിഗ്നലുകളെ ചെറുതും വ്യതിരിക്തവുമായ ഡിജിറ്റൽ സിഗ്നലുകളായി വിഭജിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of breaking down audio signals into smaller, discrete digital signals called?";
+window["i-h-A"+i] = "Audio compression";
+window["i-h-B"+i] = "Audio quantization";
+window["i-h-C"+i] = "Audio sampling";
+window["i-h-D"+i] = "Audio digitization";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും മൗസ് ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a mouse to control and operate digital devices called?";
+window["i-h-A"+i] = "Mouse";
+window["i-h-B"+i] = "Touchpad";
+window["i-h-C"+i] = "Trackball";
+window["i-h-D"+i] = "Joystick";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ചിത്രങ്ങളും വീഡിയോകളും പകർത്താനും സംഭരിക്കാനും ക്യാമറ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a camera to capture and store images and videos called?";
+window["i-h-A"+i] = "Camera";
+window["i-h-B"+i] = "Camcorder";
+window["i-h-C"+i] = "Webcam";
+window["i-h-D"+i] = "Action camera";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "റേഡിയോ തരംഗങ്ങൾ ഉപയോഗിച്ച് കുറച്ച് ദൂരത്തേക്ക് വയർലെസ് ആയി ഡാറ്റ ട്രാൻസ്മിറ്റ് ചെയ്യാൻ നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to transmit data wirelessly over a short distance using radio waves called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "Cellular network";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ ഒരു ഉപകരണത്തിൽ നിന്ന് മറ്റൊന്നിലേക്ക് ഡാറ്റ അയയ്ക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of sending data from one device to another over a network called?";
+window["i-h-A"+i] = "Data transfer";
+window["i-h-B"+i] = "Data storage";
+window["i-h-C"+i] = "Data compression";
+window["i-h-D"+i] = "Data encryption";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "അനലോഗ് സിഗ്നലുകളെ ഡിജിറ്റൽ സിഗ്നലുകളാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting analog signals into digital signals called?";
+window["i-h-A"+i] = "Decompression";
+window["i-h-B"+i] = "Compression";
+window["i-h-C"+i] = "Sampling";
+window["i-h-D"+i] = "Analog-to-digital conversion";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "എളുപ്പത്തിൽ തിരയാനും ആക്സസ് ചെയ്യാനും കഴിയുന്ന തരത്തിൽ ഡാറ്റ സംഭരിക്കുകയും ഓർഗനൈസുചെയ്യുകയും ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of storing and organizing data in a way that makes it easily searchable and accessible called?";
+window["i-h-A"+i] = "Data retrieval";
+window["i-h-B"+i] = "Data management";
+window["i-h-C"+i] = "Data organization";
+window["i-h-D"+i] = "Data indexing";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും ഒരു ടച്ച്പാഡ് ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a touchpad to control and operate digital devices called?";
+window["i-h-A"+i] = "Touchscreen";
+window["i-h-B"+i] = "Touchpad";
+window["i-h-C"+i] = "Touch controller";
+window["i-h-D"+i] = "Touch sensor";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ടച്ച് സെൻസിറ്റീവ് ഡിസ്‌പ്ലേയിൽ എഴുതാനും വരയ്ക്കാനും സ്റ്റൈലസ് ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a stylus to write and draw on a touch-sensitive display called?";
+window["i-h-A"+i] = "Stylus";
+window["i-h-B"+i] = "Pen";
+window["i-h-C"+i] = "Brush";
+window["i-h-D"+i] = "Marker";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "മൈക്രോവേവ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using microwave signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ഡിജിറ്റൽ ഉപകരണത്തിൽ നിന്ന് ശബ്ദം പുറപ്പെടുവിക്കുന്നതിന് സ്പീക്കർ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a speaker to produce sound from a digital device called?";
+window["i-h-A"+i] = "Speaker";
+window["i-h-B"+i] = "Headphone";
+window["i-h-C"+i] = "Microphone";
+window["i-h-D"+i] = "Earbud";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ പ്രക്ഷേപണം ചെയ്യുന്നതിനായി ഒരു വലിയ ഡാറ്റാ ഫയലിനെ ചെറിയ ഭാഗങ്ങളായി വിഭജിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of dividing a larger data file into smaller parts for transmission over a network called?";
+window["i-h-A"+i] = "Data fragmentation";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data encryption";
+window["i-h-D"+i] = "Data sampling";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒന്നിലധികം ചെറിയ ഡാറ്റ ഫയലുകൾ ഒരു വലിയ ഫയലിലേക്ക് സംയോജിപ്പിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of combining multiple smaller data files into a single larger file called?";
+window["i-h-A"+i] = "Data compression";
+window["i-h-B"+i] = "Data fragmentation";
+window["i-h-C"+i] = "Data de-fragmentation";
+window["i-h-D"+i] = "Data file concatenation";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ഡിജിറ്റൽ ഉപകരണത്തിൽ ശബ്ദം റെക്കോർഡ് ചെയ്യുന്നതിനും അതിലേക്ക് പ്രക്ഷേപണം ചെയ്യുന്നതിനും മൈക്രോഫോൺ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്തരാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a microphone to record and transmit sound to a digital device called?";
+window["i-h-A"+i] = "Speaker";
+window["i-h-B"+i] = "Headphone";
+window["i-h-C"+i] = "Microphone";
+window["i-h-D"+i] = "Earbud";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ബാക്കപ്പ് ആവശ്യങ്ങൾക്കായി ഒരു ഉപകരണത്തിൽ നിന്ന് റിമോട്ട് സെർവറിലേക്ക് ഡാറ്റ പകർത്തുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of copying data from a device to a remote server for backup purposes called?";
+window["i-h-A"+i] = "Data replication";
+window["i-h-B"+i] = "Data backup";
+window["i-h-C"+i] = "Data recovery";
+window["i-h-D"+i] = "Data migration";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ബാക്കപ്പിൽ നിന്ന് അതിന്റെ യഥാർത്ഥ സ്ഥാനത്തേക്ക് ഡാറ്റ പുനഃസ്ഥാപിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of restoring data from a backup to its original location called?";
+window["i-h-A"+i] = "Data recovery";
+window["i-h-B"+i] = "Data backup";
+window["i-h-C"+i] = "Data replication";
+window["i-h-D"+i] = "Data migration";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും ടച്ച് സെൻസിറ്റീവ് ഡിസ്‌പ്ലേ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a touch-sensitive display to control and operate digital devices called?";
+window["i-h-A"+i] = "Touchscreen";
+window["i-h-B"+i] = "Touchpad";
+window["i-h-C"+i] = "Touch controller";
+window["i-h-D"+i] = "Touch sensor";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ലൈറ്റ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to transmit data over a network using light signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ഡിജിറ്റൽ ഉപകരണത്തിൽ നിന്നുള്ള ഓഡിയോ കേൾക്കാൻ ഹെഡ്‌ഫോൺ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a headphone to listen to audio from a digital device called?";
+window["i-h-A"+i] = "Speaker";
+window["i-h-B"+i] = "Headphone";
+window["i-h-C"+i] = "Microphone";
+window["i-h-D"+i] = "Earbud";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഇൻഫ്രാറെഡ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using infrared signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ഡാറ്റാബേസിൽ നിന്ന് ഡാറ്റ വീണ്ടെടുക്കുകയും പ്രദർശിപ്പിക്കുകയും ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of retrieving and displaying data from a database called?";
+window["i-h-A"+i] = "Data retrieval";
+window["i-h-B"+i] = "Data management";
+window["i-h-C"+i] = "Data organization";
+window["i-h-D"+i] = "Data indexing";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡാറ്റയുടെ വലിപ്പം കുറയ്ക്കാൻ കംപ്രസ് ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of compressing data to reduce its size called?";
+window["i-h-A"+i] = "Data compression";
+window["i-h-B"+i] = "Data fragmentation";
+window["i-h-C"+i] = "Data de-compression";
+window["i-h-D"+i] = "Data file concatenation";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "കംപ്രസ് ചെയ്ത ഡാറ്റ അതിന്റെ യഥാർത്ഥ രൂപത്തിലേക്ക് തിരികെ കൊണ്ടുവരുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of restoring compressed data back to its original form called?";
+window["i-h-A"+i] = "Data compression";
+window["i-h-B"+i] = "Data fragmentation";
+window["i-h-C"+i] = "Data de-compression";
+window["i-h-D"+i] = "Data file concatenation";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "റ��ഡിയോ തരംഗങ്ങൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using radio waves called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "വയർഡ് കണക്ഷനുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using wired connections called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "Cellular network";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങളെ ദൂരെ നിന്ന് നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും ടച്ച് സെൻസിറ്റീവ് ഡിസ്പ്ലേ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്തരാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a touch-sensitive display to control and operate digital devices from a distance called?";
+window["i-h-A"+i] = "Remote";
+window["i-h-B"+i] = "Touchscreen";
+window["i-h-C"+i] = "Touchpad";
+window["i-h-D"+i] = "Touch controller";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ സിഗ്നലുകളെ അനലോഗ് സിഗ്നലുകളാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting digital signals back into analog signals called?";
+window["i-h-A"+i] = "Analog-to-digital conversion";
+window["i-h-B"+i] = "Digital-to-analog conversion";
+window["i-h-C"+i] = "Signal conversion";
+window["i-h-D"+i] = "Data conversion";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "സെല്ലുലാർ സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using cellular signals called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "Cellular network";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ കൂടുതൽ കാര്യക്ഷമമായ പ്രക്ഷേപണത്തിനായി ഡാറ്റയെ ചെറിയ യൂണിറ്റുകളായി വിഭജിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of dividing data into smaller units for more efficient transmission over a network called?";
+window["i-h-A"+i] = "Data fragmentation";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data encryption";
+window["i-h-D"+i] = "Data packetization";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു ഫയൽ ഒരു ഫോർമാറ്റിൽ നിന്ന് മറ്റൊന്നിലേക്ക് പരിവർത്തനം ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting a file from one format to another called?";
+window["i-h-A"+i] = "File conversion";
+window["i-h-B"+i] = "Format conversion";
+window["i-h-C"+i] = "Data conversion";
+window["i-h-D"+i] = "Document conversion";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "വോയ്‌സ് കമാൻഡുകൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ഡിജിറ്റൽ ഉപകരണങ്ങൾ ആക്‌സസ് ചെയ്യാനും നിയന്ത്രിക്കാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to access and control your digital devices using voice commands called?";
+window["i-h-A"+i] = "Voice recognition";
+window["i-h-B"+i] = "Voice control";
+window["i-h-C"+i] = "Voice command";
+window["i-h-D"+i] = "Voice interface";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ ഉപകരണങ്ങൾക്കിടയിൽ വയർലെസ് ആയി ഡാറ്റ ട്രാൻസ്ഫർ ചെയ്യാൻ നിങ്ങളെ പ്രാപ്തരാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to transfer data wirelessly between digital devices called?";
+window["i-h-A"+i] = "Wi-Fi";
+window["i-h-B"+i] = "Ethernet";
+window["i-h-C"+i] = "Bluetooth";
+window["i-h-D"+i] = "Cellular network";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ദൂരെ നിന്ന് ഡിജിറ്റൽ ഉപകരണങ്ങൾ നിയന്ത്രിക്കാനും പ്രവർത്തിപ്പിക്കാനും ഒരു റിമോട്ട് ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്തരാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a remote to control and operate digital devices from a distance called?";
+window["i-h-A"+i] = "Remote";
+window["i-h-B"+i] = "Touchscreen";
+window["i-h-C"+i] = "Touchpad";
+window["i-h-D"+i] = "Touch controller";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഇമേജ്, ടെക്‌സ്‌റ്റ്, മറ്റ് തരത്തിലുള്ള ഡാറ്റ എന്നിവ സ്‌കാൻ ചെയ്യാൻ ക്യാമറ ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a camera to scan images, texts, and other types of data called?";
+window["i-h-A"+i] = "Scanner";
+window["i-h-B"+i] = "Printer";
+window["i-h-C"+i] = "Copier";
+window["i-h-D"+i] = "Fax machine";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ടെക്‌സ്‌റ്റുകളും ഇമേജുകളും മറ്റ് തരത്തിലുള്ള ഡാറ്റയും പ്രിന്റ് ചെയ്യാൻ ഒരു ഉപകരണം ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a device to print texts, images, and other types of data called?";
+window["i-h-A"+i] = "Scanner";
+window["i-h-B"+i] = "Printer";
+window["i-h-C"+i] = "Copier";
+window["i-h-D"+i] = "Fax machine";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ടെക്‌സ്‌റ്റ്, ഇമേജുകൾ, മറ്റ് തരത്തിലുള്ള ഡാറ്റ എന്നിവ പകർത്താൻ ഒരു ഉപകരണം ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ എന്താണ്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a device to copy texts, images, and other types of data called?";
+window["i-h-A"+i] = "Scanner";
+window["i-h-B"+i] = "Printer";
+window["i-h-C"+i] = "Copier";
+window["i-h-D"+i] = "Fax machine";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ടെലിഫോൺ ലൈനിലൂടെ ടെക്‌സ്‌റ്റുകളും ചിത്രങ്ങളും മറ്റ് തരത്തിലുള്ള ഡാറ്റയും അയയ്‌ക്കാനും സ്വീകരിക്കാനും ഒരു ഉപകരണം ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യ ഏതാണ്?";    
+window["i-h-q-en"+i] = "What is the technology that enables you to use a device to send and receive texts, images, and other types of data over a telephone line called?";
+window["i-h-A"+i] = "Scanner";
+window["i-h-B"+i] = "Printer";
+window["i-h-C"+i] = "Copier";
+window["i-h-D"+i] = "Fax machine";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഗണിതവും യുക്തിസഹവുമായ പ്രവർത്തനങ്ങൾ നടത്താൻ ഒരു ഉപകരണം ഉപയോഗിക്കാൻ നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to use a device to perform arithmetic and logical operations called?";
+window["i-h-A"+i] = "Processor";
+window["i-h-B"+i] = "Memory";
+window["i-h-C"+i] = "Storage";
+window["i-h-D"+i] = "Motherboard";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു കമ്പ്യൂട്ടറിൽ ഡാറ്റ സംഭരിക്കാനും വീണ്ടെടുക്കാനും നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and retrieve data in a computer called?";
+window["i-h-A"+i] = "Processor";
+window["i-h-B"+i] = "Memory";
+window["i-h-C"+i] = "Storage";
+window["i-h-D"+i] = "Motherboard";
+window["i-h-ans"+i] = 3;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു കമ്പ്യൂട്ടറിന്റെ എല്ലാ ഘടകങ്ങളും ബന്ധിപ്പിക്കാനും നിയന്ത്രിക്കാനും നിങ്ങളെ പ്രാപ്‌തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to connect and manage all the components of a computer called?";
+window["i-h-A"+i] = "Processor";
+window["i-h-B"+i] = "Memory";
+window["i-h-C"+i] = "Storage";
+window["i-h-D"+i] = "Motherboard";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു കമ്പ്യൂട്ടർ എക്സിക്യൂട്ട് ചെയ്യുന്നതിനുള്ള നിർദ്ദേശങ്ങൾ സംഭരിക്കാനും വീണ്ടെടുക്കാനും നിങ്ങളെ പ്രാപ്തമാക്കുന്ന സാങ്കേതികവിദ്യയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the technology that enables you to store and retrieve instructions for a computer to execute called?";
+window["i-h-A"+i] = "Processor";
+window["i-h-B"+i] = "Memory";
+window["i-h-C"+i] = "Storage";
+window["i-h-D"+i] = "Motherboard";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "ഡിജിറ്റൽ സിഗ്നലിനെ അനലോഗ് സിഗ്നലാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting a digital signal into an analog signal called?";
+window["i-h-A"+i] = "Analog-to-digital conversion";
+window["i-h-B"+i] = "Digital-to-analog conversion";
+window["i-h-C"+i] = "Signal conversion";
+window["i-h-D"+i] = "Data conversion";
+window["i-h-ans"+i] = 2;
+
+i++
+window["i-h-q-ma"+i] = "മൈക്രോവേവ് ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using microwaves called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "അനധികൃത ആക്‌സസ്സിൽ നിന്ന് ഡാറ്റ സുരക്ഷിതമാക്കാൻ എൻക്രിപ്റ്റ് ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of encrypting data to secure it from unauthorized access called?";
+window["i-h-A"+i] = "Data encryption";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data packetization";
+window["i-h-D"+i] = "Data fragmentation";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ കൂടുതൽ കാര്യക്ഷമമായ പ്രക്ഷേപണത്തിനായി ഒരു വലിയ ഫയലിനെ ചെറിയ യൂണിറ്റുകളായി വിഭജിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of dividing a large file into smaller units for more efficient transmission over a network called?";
+window["i-h-A"+i] = "Data fragmentation";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data encryption";
+window["i-h-D"+i] = "Data packetization";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "ഡാറ്റയുടെ വലിപ്പം കുറയ്ക്കാൻ കംപ്രസ് ചെയ്യുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of compressing data to reduce its size called?";
+window["i-h-A"+i] = "Data compression";
+window["i-h-B"+i] = "Data encryption";
+window["i-h-C"+i] = "Data packetization";
+window["i-h-D"+i] = "Data fragmentation";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "സംഭരണത്തിനും വീണ്ടെടുക്കലിനും വേണ്ടി ഒരു വലിയ ഫയലിനെ ചെറിയ യൂണിറ്റുകളാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of breaking down a large file into smaller units for storage and retrieval purposes called?";
+window["i-h-A"+i] = "Data fragmentation";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data encryption";
+window["i-h-D"+i] = "Data packetization";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഒരു നെറ്റ്‌വർക്കിലൂടെ കാര്യക്ഷമമായ പ്രക്ഷേപണത്തിനായി ഡാറ്റയെ ചെറിയ പാക്കറ്റുകളായി വിഭജിക്കുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of dividing data into small packets for efficient transmission over a network called?";
+window["i-h-A"+i] = "Data fragmentation";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data encryption";
+window["i-h-D"+i] = "Data packetization";
+window["i-h-ans"+i] = 4;
+
+i++
+window["i-h-q-ma"+i] = "അനധികൃത ആക്‌സസ് തടയാൻ ഡാറ്റ ഒരു കോഡാക്കി മാറ്റുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of converting data into a code to prevent unauthorized access called?";
+window["i-h-A"+i] = "Data encryption";
+window["i-h-B"+i] = "Data compression";
+window["i-h-C"+i] = "Data packetization";
+window["i-h-D"+i] = "Data fragmentation";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ലൈറ്റ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using light signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 1;
+
+i++
+window["i-h-q-ma"+i] = "ഇൻഫ്രാറെഡ് സിഗ്നലുകൾ ഉപയോഗിച്ച് ഒരു നെറ്റ്‌വർക്കിലൂടെ ഡാറ്റ കൈമാറുന്ന പ്രക്രിയയെ എന്താണ് വിളിക്കുന്നത്?";
+window["i-h-q-en"+i] = "What is the process of transmitting data over a network using infrared signals called?";
+window["i-h-A"+i] = "Optical communication";
+window["i-h-B"+i] = "Radio communication";
+window["i-h-C"+i] = "Infrared communication";
+window["i-h-D"+i] = "Microwave communication";
+window["i-h-ans"+i] = 3;
+
+
 i_hTotal = i;
