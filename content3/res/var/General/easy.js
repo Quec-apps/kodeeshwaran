@@ -496,4 +496,861 @@ window["a-e-D"+a] = "Rectangle";
 window["a-e-ans"+a] = 2;
 
 
+
+
+
+
+
+
+
+
+// ai generated
+
+
+
+
+
+
+
+a++
+window["a-e-q-ma"+a] = "ഫ്രാൻസിന്റെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of France?";
+window["a-e-A"+a] = "Paris";
+window["a-e-B"+a] = "Berlin";
+window["a-e-C"+a] = "Madrid";
+window["a-e-D"+a] = "Rome";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "പ്രശസ്ത കലാസൃഷ്ടിയായ ദി സ്റ്റാറി നൈറ്റ് വരച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who painted the famous artwork, The Starry Night?";
+window["a-e-A"+a] = "Pablo Picasso";
+window["a-e-B"+a] = "Vincent van Gogh";
+window["a-e-C"+a] = "Salvador Dali";
+window["a-e-D"+a] = "Claude Monet";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "To Kill a Mockingbird എന്ന നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the novel, To Kill a Mockingbird?";
+window["a-e-A"+a] = "Ernest Hemingway";
+window["a-e-B"+a] = "Harper Lee";
+window["a-e-C"+a] = "Mark Twain";
+window["a-e-D"+a] = "William Faulkner";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ചന്ദ്രനിലെ ആദ്യത്തെ മനുഷ്യൻ ആരായിരുന്നു?";
+window["a-e-q-en"+a] = "Who was the first man on the moon?";
+window["a-e-A"+a] = "Neil Armstrong";
+window["a-e-B"+a] = "Buzz Aldrin";
+window["a-e-C"+a] = "Michael Collins";
+window["a-e-D"+a] = "John Glenn";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ആരാണ് ടെലിഫോൺ കണ്ടുപിടിച്ചത്?";
+window["a-e-q-en"+a] = "Who invented the telephone?";
+window["a-e-A"+a] = "Alexander Graham Bell";
+window["a-e-B"+a] = "Thomas Edison";
+window["a-e-C"+a] = "Nikola Tesla";
+window["a-e-D"+a] = "Marconi";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ആരാണ് ഹാരി പോട്ടർ പരമ്പര എഴുതിയത്?";
+window["a-e-q-en"+a] = "Who wrote the Harry Potter series?";
+window["a-e-A"+a] = "J.K. Rowling";
+window["a-e-B"+a] = "Stephenie Meyer";
+window["a-e-C"+a] = "Veronica Roth";
+window["a-e-D"+a] = "Suzanne Collins";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "1984-ലെ പുസ്തകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the book, 1984?";
+window["a-e-A"+a] = "George Orwell";
+window["a-e-B"+a] = "Aldous Huxley";
+window["a-e-C"+a] = "Ray Bradbury";
+window["a-e-D"+a] = "Isaac Asimov";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ഇന്ത്യാന ജോൺസ് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Indiana Jones in the film series?";
+window["a-e-A"+a] = "Tom Cruise";
+window["a-e-B"+a] = "Harrison Ford";
+window["a-e-C"+a] = "Sean Connery";
+window["a-e-D"+a] = "Michael J. Fox";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "രണ്ടാം ലോകമഹായുദ്ധകാലത്ത് നാസി ജർമ്മനിയുടെ നേതാവ് ആരായിരുന്നു?";
+window["a-e-q-en"+a] = "Who was the leader of Nazi Germany during World War II?";
+window["a-e-A"+a] = "Winston Churchill";
+window["a-e-B"+a] = "Joseph Stalin";
+window["a-e-C"+a] = "Franklin D. Roosevelt";
+window["a-e-D"+a] = "Adolf Hitler";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "ലോകത്തിലെ ഏറ്റവും വലിയ സമുദ്രം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the largest ocean in the world?";
+window["a-e-A"+a] = "Atlantic Ocean";
+window["a-e-B"+a] = "Pacific Ocean";
+window["a-e-C"+a] = "Indian Ocean";
+window["a-e-D"+a] = "Southern Ocean";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ലാ ട്രാവിയറ്റ എന്ന പ്രശസ്ത ഓപ്പറ രചിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who composed the famous opera, La Traviata?";
+window["a-e-A"+a] = "Ludwig van Beethoven";
+window["a-e-B"+a] = "Wolfgang Amadeus Mozart";
+window["a-e-C"+a] = "Giuseppe Verdi";
+window["a-e-D"+a] = "Richard Wagner";
+window["a-e-ans"+a] = 3;
+
+a++
+window["a-e-q-ma"+a] = "അമേരിക്കയുടെ ആദ്യത്തെ പ്രസിഡന്റ് ആരായിരുന്നു?";
+window["a-e-q-en"+a] = "Who was the first president of the United States?";
+window["a-e-A"+a] = "George Washington";
+window["a-e-B"+a] = "Thomas Jefferson";
+window["a-e-C"+a] = "Abraham Lincoln";
+window["a-e-D"+a] = "Theodore Roosevelt";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ജപ്പാനിൽ ഉപയോഗിക്കുന്ന കറൻസി എന്താണ്?";
+window["a-e-q-en"+a] = "What is the currency used in Japan?";
+window["a-e-A"+a] = "Dollar";
+window["a-e-B"+a] = "Euro";
+window["a-e-C"+a] = "Yen";
+window["a-e-D"+a] = "Pound";
+window["a-e-ans"+a] = 3;
+
+a++
+window["a-e-q-ma"+a] = "റോമിയോ ആൻഡ് ജൂലിയറ്റ് എന്ന നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the play, Romeo and Juliet?";
+window["a-e-A"+a] = "William Shakespeare";
+window["a-e-B"+a] = "Charles Dickens";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "Edgar Allan Poe";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഓസ്ട്രേലിയയുടെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Australia?";
+window["a-e-A"+a] = "Sydney";
+window["a-e-B"+a] = "Melbourne";
+window["a-e-C"+a] = "Brisbane";
+window["a-e-D"+a] = "Canberra";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "പ്രൈഡ് ആൻഡ് പ്രിജുഡീസ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Pride and Prejudice?";
+window["a-e-A"+a] = "Jane Austen";
+window["a-e-B"+a] = "Charlotte Bronte";
+window["a-e-C"+a] = "Emily Bronte";
+window["a-e-D"+a] = "Lewis Carroll";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "യുണൈറ്റഡ് കിംഗ്ഡത്തിലെ ആദ്യത്തെ വനിതാ പ്രധാനമന്ത്രി ആരായിരുന്നു?";
+window["a-e-q-en"+a] = "Who was the first female prime minister of the United Kingdom?";
+window["a-e-A"+a] = "Margaret Thatcher";
+window["a-e-B"+a] = "Theresa May";
+window["a-e-C"+a] = "Tony Blair";
+window["a-e-D"+a] = "Gordon Brown";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ജെയിംസ് ബോണ്ടിന്റെ വേഷം ചെയ്തത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the role of James Bond in the film series?";
+window["a-e-A"+a] = "Sean Connery";
+window["a-e-B"+a] = "Roger Moore";
+window["a-e-C"+a] = "Pierce Brosnan";
+window["a-e-D"+a] = "Daniel Craig";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "ചൈനയുടെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of China?";
+window["a-e-A"+a] = "Beijing";
+window["a-e-B"+a] = "Shanghai";
+window["a-e-C"+a] = "Hong Kong";
+window["a-e-D"+a] = "Taipei";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മൂൺലൈറ്റ് സൊണാറ്റ എന്ന പ്രശസ്ത കൃതി രചിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who composed the famous piece, Moonlight Sonata?";
+window["a-e-A"+a] = "Ludwig van Beethoven";
+window["a-e-B"+a] = "Wolfgang Amadeus Mozart";
+window["a-e-C"+a] = "Giuseppe Verdi";
+window["a-e-D"+a] = "Richard Wagner";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഹാംലെറ്റ് എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, Hamlet?";
+window["a-e-A"+a] = "William Shakespeare";
+window["a-e-B"+a] = "Charles Dickens";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "Edgar Allan Poe";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ബ്രസീലിന്റെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Brazil?";
+window["a-e-A"+a] = "Rio de Janeiro";
+window["a-e-B"+a] = "Sao Paulo";
+window["a-e-C"+a] = "Brasilia";
+window["a-e-D"+a] = "Salvador";
+window["a-e-ans"+a] = 3;
+
+a++
+window["a-e-q-ma"+a] = "ലോർഡ് ഓഫ് ദ റിംഗ്സ് ഫിലിം ട്രൈലോജിയിൽ ഫ്രോഡോ ബാഗിൻസ് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Frodo Baggins in the Lord of the Rings film trilogy?";
+window["a-e-A"+a] = "Elijah Wood";
+window["a-e-B"+a] = "Ian McKellen";
+window["a-e-C"+a] = "Viggo Mortensen";
+window["a-e-D"+a] = "Sean Bean";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "യുദ്ധവും സമാധാനവും എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, War and Peace?";
+window["a-e-A"+a] = "Fyodor Dostoevsky";
+window["a-e-B"+a] = "Leo Tolstoy";
+window["a-e-C"+a] = "Ivan Turgenev";
+window["a-e-D"+a] = "Anton Chekhov";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ലൈറ്റ് ഹൗസിലേക്ക് എന്ന പുസ്തകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the book, To the Lighthouse?";
+window["a-e-A"+a] = "Virginia Woolf";
+window["a-e-B"+a] = "Jane Austen";
+window["a-e-C"+a] = "George Eliot";
+window["a-e-D"+a] = "Charlotte Bronte";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ഷെർലക് ഹോംസ് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the role of Sherlock Holmes in the film series?";
+window["a-e-A"+a] = "Robert Downey Jr.";
+window["a-e-B"+a] = "Benedict Cumberbatch";
+window["a-e-C"+a] = "Jeremy Brett";
+window["a-e-D"+a] = "Ian McKellen";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "എ മിഡ്‌സമ്മർ നൈറ്റ്‌സ് ഡ്രീം എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, A Midsummer Night’s Dream?";
+window["a-e-A"+a] = "William Shakespeare";
+window["a-e-B"+a] = "Charles Dickens";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "Edgar Allan Poe";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "റഷ്യയുടെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Russia?";
+window["a-e-A"+a] = "Moscow";
+window["a-e-B"+a] = "St. Petersburg";
+window["a-e-C"+a] = "Kazan";
+window["a-e-D"+a] = "Novosibirsk";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "വുതറിംഗ് ഹൈറ്റ്സ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Wuthering Heights?";
+window["a-e-A"+a] = "Emily Bronte";
+window["a-e-B"+a] = "Charlotte Bronte";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "Louisa May Alcott";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മെക്സിക്കോയുടെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Mexico?";
+window["a-e-A"+a] = "Mexico City";
+window["a-e-B"+a] = "Guadalajara";
+window["a-e-C"+a] = "Monterrey";
+window["a-e-D"+a] = "Tijuana";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ലെസ് മിസറബിൾസ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Les Miserables?";
+window["a-e-A"+a] = "Victor Hugo";
+window["a-e-B"+a] = "Alexandre Dumas";
+window["a-e-C"+a] = "Gustave Flaubert";
+window["a-e-D"+a] = "Emile Zola";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഹംഗർ ഗെയിംസ് ചലച്ചിത്ര പരമ്പരയിലെ കാറ്റ്‌നിസ് എവർഡീൻ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Katniss Everdeen in the Hunger Games film series?";
+window["a-e-A"+a] = "Jennifer Lawrence";
+window["a-e-B"+a] = "Emma Watson";
+window["a-e-C"+a] = "Shailene Woodley";
+window["a-e-D"+a] = "Dakota Fanning";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "പ്രസിദ്ധമായ നാടകമായ ദി ഇംപോർട്ടൻസ് ഓഫ് ബിയിംഗ് ഏണസ്റ്റ് എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, The Importance of Being Earnest?";
+window["a-e-A"+a] = "Oscar Wilde";
+window["a-e-B"+a] = "William Shakespeare";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "George Bernard Shaw";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി ഗ്രേറ്റ് ഗാറ്റ്സ്ബി എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Great Gatsby?";
+window["a-e-A"+a] = "Ernest Hemingway";
+window["a-e-B"+a] = "F. Scott Fitzgerald";
+window["a-e-C"+a] = "John Steinbeck";
+window["a-e-D"+a] = "William Faulkner";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ഓസ്ട്രേലിയയുടെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Australia?";
+window["a-e-A"+a] = "Sydney";
+window["a-e-B"+a] = "Melbourne";
+window["a-e-C"+a] = "Brisbane";
+window["a-e-D"+a] = "Canberra";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ഇന്ത്യാന ജോൺസ് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Indiana Jones in the film series?";
+window["a-e-A"+a] = "Harrison Ford";
+window["a-e-B"+a] = "Sean Connery";
+window["a-e-C"+a] = "Tom Cruise";
+window["a-e-D"+a] = "Daniel Craig";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "To Kill a Mockingbird എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, To Kill a Mockingbird?";
+window["a-e-A"+a] = "Harper Lee";
+window["a-e-B"+a] = "Toni Morrison";
+window["a-e-C"+a] = "Alice Walker";
+window["a-e-D"+a] = "Zora Neale Hurston";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ജെയിംസ് ബോണ്ട് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of James Bond in the film series?";
+window["a-e-A"+a] = "Sean Connery";
+window["a-e-B"+a] = "Roger Moore";
+window["a-e-C"+a] = "Pierce Brosnan";
+window["a-e-D"+a] = "Daniel Craig";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "ദി ക്യാച്ചർ ഇൻ ദ റൈ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Catcher in the Rye?";
+window["a-e-A"+a] = "J.D. Salinger";
+window["a-e-B"+a] = "Ernest Hemingway";
+window["a-e-C"+a] = "F. Scott Fitzgerald";
+window["a-e-D"+a] = "William Faulkner";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഏകാന്തതയുടെ നൂറുവർഷങ്ങൾ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, One Hundred Years of Solitude?";
+window["a-e-A"+a] = "Gabriel Garcia Marquez";
+window["a-e-B"+a] = "Pablo Neruda";
+window["a-e-C"+a] = "Octavio Paz";
+window["a-e-D"+a] = "Jorge Luis Borges";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മാർവൽ സിനിമാറ്റിക് യൂണിവേഴ്‌സിൽ അയൺ മാൻ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Iron Man in the Marvel Cinematic Universe?";
+window["a-e-A"+a] = "Robert Downey Jr.";
+window["a-e-B"+a] = "Chris Evans";
+window["a-e-C"+a] = "Chris Hemsworth";
+window["a-e-D"+a] = "Mark Ruffalo";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "1984 ലെ പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, 1984?";
+window["a-e-A"+a] = "George Orwell";
+window["a-e-B"+a] = "Aldous Huxley";
+window["a-e-C"+a] = "Ray Bradbury";
+window["a-e-D"+a] = "Philip K. Dick";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "എ ഡോൾസ് ഹൗസ് എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, A Doll’s House?";
+window["a-e-A"+a] = "Henrik Ibsen";
+window["a-e-B"+a] = "August Strindberg";
+window["a-e-C"+a] = "August Wilson";
+window["a-e-D"+a] = "Harold Pinter";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഇറ്റലിയുടെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Italy?";
+window["a-e-A"+a] = "Rome";
+window["a-e-B"+a] = "Milan";
+window["a-e-C"+a] = "Florence";
+window["a-e-D"+a] = "Venice";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ലിറ്റിൽ വിമൻ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Little Women?";
+window["a-e-A"+a] = "Louisa May Alcott";
+window["a-e-B"+a] = "Jane Austen";
+window["a-e-C"+a] = "Charlotte Bronte";
+window["a-e-D"+a] = "Emily Bronte";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ ഹാരി പോട്ടർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Harry Potter in the film series?";
+window["a-e-A"+a] = "Daniel Radcliffe";
+window["a-e-B"+a] = "Emma Watson";
+window["a-e-C"+a] = "Rupert Grint";
+window["a-e-D"+a] = "Tom Felton";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഡെത്ത് ഓഫ് എ സെയിൽസ്മാൻ എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, Death of a Salesman?";
+window["a-e-A"+a] = "Arthur Miller";
+window["a-e-B"+a] = "Tennessee Williams";
+window["a-e-C"+a] = "Edward Albee";
+window["a-e-D"+a] = "August Wilson";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി ഹിച്ച്‌ഹൈക്കേഴ്‌സ് ഗൈഡ് ടു ദ ഗാലക്‌സി എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Hitchhiker’s Guide to the Galaxy?";
+window["a-e-A"+a] = "Douglas Adams";
+window["a-e-B"+a] = "Terry Pratchett";
+window["a-e-C"+a] = "J.K. Rowling";
+window["a-e-D"+a] = "Philip K. Dick";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "പൈറേറ്റ്സ് ഓഫ് കരീബിയൻ ചലച്ചിത്ര പരമ്പരയിലെ ജാക്ക് സ്പാരോ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Jack Sparrow in the Pirates of the Caribbean film series?";
+window["a-e-A"+a] = "Johnny Depp";
+window["a-e-B"+a] = "Orlando Bloom";
+window["a-e-C"+a] = "Keira Knightley";
+window["a-e-D"+a] = "Geoffrey Rush";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "റ്റു ദി ലൈറ്റ് ഹൗസ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, To the Lighthouse?";
+window["a-e-A"+a] = "Virginia Woolf";
+window["a-e-B"+a] = "Jane Austen";
+window["a-e-C"+a] = "Charlotte Bronte";
+window["a-e-D"+a] = "Emily Bronte";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ ബാറ്റ്മാൻ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Batman in the film series?";
+window["a-e-A"+a] = "Michael Keaton";
+window["a-e-B"+a] = "Val Kilmer";
+window["a-e-C"+a] = "George Clooney";
+window["a-e-D"+a] = "Christian Bale";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "ക്രോധത്തിന്റെ മുന്തിരികൾ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Grapes of Wrath?";
+window["a-e-A"+a] = "John Steinbeck";
+window["a-e-B"+a] = "Ernest Hemingway";
+window["a-e-C"+a] = "F. Scott Fitzgerald";
+window["a-e-D"+a] = "William Faulkner";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "സ്പെയിനിന്റെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of Spain?";
+window["a-e-A"+a] = "Barcelona";
+window["a-e-B"+a] = "Madrid";
+window["a-e-C"+a] = "Valencia";
+window["a-e-D"+a] = "Seville";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "എ സ്ട്രീറ്റ്കാർ നെയിംഡ് ഡിസയർ എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, A Streetcar Named Desire?";
+window["a-e-A"+a] = "Tennessee Williams";
+window["a-e-B"+a] = "Arthur Miller";
+window["a-e-C"+a] = "Edward Albee";
+window["a-e-D"+a] = "August Wilson";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മാർവൽ സിനിമാറ്റിക് യൂണിവേഴ്‌സിൽ തോർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Thor in the Marvel Cinematic Universe?";
+window["a-e-A"+a] = "Chris Hemsworth";
+window["a-e-B"+a] = "Tom Hiddleston";
+window["a-e-C"+a] = "Chris Evans";
+window["a-e-D"+a] = "Robert Downey Jr.";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "വുതറിംഗ് ഹൈറ്റ്സ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Wuthering Heights?";
+window["a-e-A"+a] = "Jane Austen";
+window["a-e-B"+a] = "Charlotte Bronte";
+window["a-e-C"+a] = "Emily Bronte";
+window["a-e-D"+a] = "Anne Bronte";
+window["a-e-ans"+a] = 3;
+
+a++
+window["a-e-q-ma"+a] = "ദി ക്രൂസിബിൾ എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, The Crucible?";
+window["a-e-A"+a] = "Arthur Miller";
+window["a-e-B"+a] = "Tennessee Williams";
+window["a-e-C"+a] = "Edward Albee";
+window["a-e-D"+a] = "August Wilson";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി പിക്ചർ ഓഫ് ഡോറിയൻ ഗ്രേ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Picture of Dorian Gray?";
+window["a-e-A"+a] = "Oscar Wilde";
+window["a-e-B"+a] = "William Shakespeare";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "George Bernard Shaw";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ ജോക്കർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of The Joker in the film series?";
+window["a-e-A"+a] = "Jack Nicholson";
+window["a-e-B"+a] = "Heath Ledger";
+window["a-e-C"+a] = "Joaquin Phoenix";
+window["a-e-D"+a] = "Mark Hamill";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ബ്രേവ് ന്യൂ വേൾഡ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Brave New World?";
+window["a-e-A"+a] = "Aldous Huxley";
+window["a-e-B"+a] = "George Orwell";
+window["a-e-C"+a] = "Ray Bradbury";
+window["a-e-D"+a] = "Philip K. Dick";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ വണ്ടർ വുമൺ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച��ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Wonder Woman in the film series?";
+window["a-e-A"+a] = "Gal Gadot";
+window["a-e-B"+a] = "Lynda Carter";
+window["a-e-C"+a] = "Adrianne Palicki";
+window["a-e-D"+a] = "Nicola Scott";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി ഗ്ലാസ് മെനേജറി എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, The Glass Menagerie?";
+window["a-e-A"+a] = "Tennessee Williams";
+window["a-e-B"+a] = "Arthur Miller";
+window["a-e-C"+a] = "Edward Albee";
+window["a-e-D"+a] = "August Wilson";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഫ്രാൻസിന്റെ തലസ്ഥാനം ഏതാണ്?";
+window["a-e-q-en"+a] = "What is the capital of France?";
+window["a-e-A"+a] = "Paris";
+window["a-e-B"+a] = "Marseille";
+window["a-e-C"+a] = "Lyon";
+window["a-e-D"+a] = "Toulouse";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി ലോർഡ് ഓഫ് ദ റിംഗ്സ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Lord of the Rings?";
+window["a-e-A"+a] = "J.R.R. Tolkien";
+window["a-e-B"+a] = "J.K. Rowling";
+window["a-e-C"+a] = "George R.R. Martin";
+window["a-e-D"+a] = "Philip Pullman";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി മാട്രിക്സ് ഫിലിം സീരീസിലെ നിയോ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Neo in The Matrix film series?";
+window["a-e-A"+a] = "Keanu Reeves";
+window["a-e-B"+a] = "Laurence Fishburne";
+window["a-e-C"+a] = "Hugo Weaving";
+window["a-e-D"+a] = "Carrie-Anne Moss";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ജെയ്ൻ ഐർ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Jane Eyre?";
+window["a-e-A"+a] = "Charlotte Bronte";
+window["a-e-B"+a] = "Jane Austen";
+window["a-e-C"+a] = "Emily Bronte";
+window["a-e-D"+a] = "Anne Bronte";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ ഹാനിബാൾ ലെക്‌ടർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Hannibal Lecter in the film series?";
+window["a-e-A"+a] = "Anthony Hopkins";
+window["a-e-B"+a] = "Brian Cox";
+window["a-e-C"+a] = "Mads Mikkelsen";
+window["a-e-D"+a] = "Laurence Fishburne";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "To Kill a Mockingbird എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, To Kill a Mockingbird?";
+window["a-e-A"+a] = "Harper Lee";
+window["a-e-B"+a] = "William Faulkner";
+window["a-e-C"+a] = "Ernest Hemingway";
+window["a-e-D"+a] = "John Steinbeck";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ സ്പൈഡർ മാൻ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Spider-Man in the film series?";
+window["a-e-A"+a] = "Tobey Maguire";
+window["a-e-B"+a] = "Andrew Garfield";
+window["a-e-C"+a] = "Tom Holland";
+window["a-e-D"+a] = "Miles Morales";
+window["a-e-ans"+a] = 3;
+
+a++
+window["a-e-q-ma"+a] = "ഡെത്ത് ഓഫ് എ സെയിൽസ്മാൻ എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, Death of a Salesman?";
+window["a-e-A"+a] = "Tennessee Williams";
+window["a-e-B"+a] = "Arthur Miller";
+window["a-e-C"+a] = "Edward Albee";
+window["a-e-D"+a] = "August Wilson";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ഇന്ത്യാന ജോൺസ് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Indiana Jones in the film series?";
+window["a-e-A"+a] = "Harrison Ford";
+window["a-e-B"+a] = "Sean Connery";
+window["a-e-C"+a] = "Shia LaBeouf";
+window["a-e-D"+a] = "River Phoenix";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി ഗ്രേറ്റ് ഗാറ്റ്സ്ബി എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Great Gatsby?";
+window["a-e-A"+a] = "F. Scott Fitzgerald";
+window["a-e-B"+a] = "Ernest Hemingway";
+window["a-e-C"+a] = "William Faulkner";
+window["a-e-D"+a] = "John Steinbeck";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മാർവൽ സിനിമാറ്റിക് യൂണിവേഴ്‌സിൽ അയൺ മാൻ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Iron Man in the Marvel Cinematic Universe?";
+window["a-e-A"+a] = "Robert Downey Jr.";
+window["a-e-B"+a] = "Don Cheadle";
+window["a-e-C"+a] = "Jon Favreau";
+window["a-e-D"+a] = "Gwyneth Paltrow";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഹാർട്ട് ഓഫ് ഡാർക്ക്നസ് എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Heart of Darkness?";
+window["a-e-A"+a] = "Joseph Conrad";
+window["a-e-B"+a] = "Charles Dickens";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "William Faulkner";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഷെർലക് ഹോംസ് ചലച്ചിത്ര പരമ്പരയിലെ ഡോ. ജോൺ വാട്‌സൺ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Dr. John Watson in the Sherlock Holmes film series?";
+window["a-e-A"+a] = "Robert Downey Jr.";
+window["a-e-B"+a] = "Jude Law";
+window["a-e-C"+a] = "Martin Freeman";
+window["a-e-D"+a] = "Benedict Cumberbatch";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "സൂര്യനിൽ ഉണക്കമുന്തിരി എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, A Raisin in the Sun?";
+window["a-e-A"+a] = "August Wilson";
+window["a-e-B"+a] = "Tennessee Williams";
+window["a-e-C"+a] = "Arthur Miller";
+window["a-e-D"+a] = "Edward Albee";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിൽ ജെയിംസ് ബോണ്ട് എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of James Bond in the film series?";
+window["a-e-A"+a] = "Sean Connery";
+window["a-e-B"+a] = "Roger Moore";
+window["a-e-C"+a] = "Pierce Brosnan";
+window["a-e-D"+a] = "Daniel Craig";
+window["a-e-ans"+a] = 4;
+
+a++
+window["a-e-q-ma"+a] = "ദി ഹിച്ച്‌ഹൈക്കേഴ്‌സ് ഗൈഡ് ടു ദ ഗാലക്‌സി എന്ന വിഖ്യാത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Hitchhiker's Guide to the Galaxy?";
+window["a-e-A"+a] = "Douglas Adams";
+window["a-e-B"+a] = "Terry Pratchett";
+window["a-e-C"+a] = "J.R.R. Tolkien";
+window["a-e-D"+a] = "George R.R. Martin";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ ഹാരി പോട്ടർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Harry Potter in the film series?";
+window["a-e-A"+a] = "Rupert Grint";
+window["a-e-B"+a] = "Daniel Radcliffe";
+window["a-e-C"+a] = "Emma Watson";
+window["a-e-D"+a] = "Bonnie Wright";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "പ്രസിദ്ധമായ നാടകമായ ദി ഇംപോർട്ടൻസ് ഓഫ് ബിയിംഗ് ഏണസ്റ്റ് എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, The Importance of Being Earnest?";
+window["a-e-A"+a] = "Oscar Wilde";
+window["a-e-B"+a] = "William Shakespeare";
+window["a-e-C"+a] = "Jane Austen";
+window["a-e-D"+a] = "George Bernard Shaw";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മാർവൽ സിനിമാറ്റിക് യൂണിവേഴ്‌സിൽ ബ്ലാക്ക് വിഡോ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Black Widow in the Marvel Cinematic Universe?";
+window["a-e-A"+a] = "Scarlett Johansson";
+window["a-e-B"+a] = "Natasha Romanoff";
+window["a-e-C"+a] = "Cobie Smulders";
+window["a-e-D"+a] = "Emily VanCamp";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ദി ക്യാച്ചർ ഇൻ ദ റൈ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, The Catcher in the Rye?";
+window["a-e-A"+a] = "J.D. Salinger";
+window["a-e-B"+a] = "Ernest Hemingway";
+window["a-e-C"+a] = "F. Scott Fitzgerald";
+window["a-e-D"+a] = "William Faulkner";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ക്രിസ്റ്റഫർ നോളൻ ചലച്ചിത്ര പരമ്പരയിലെ ബാറ്റ്മാൻ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Batman in the Christopher Nolan film series?";
+window["a-e-A"+a] = "Michael Keaton";
+window["a-e-B"+a] = "Val Kilmer";
+window["a-e-C"+a] = "Christian Bale";
+window["a-e-D"+a] = "George Clooney";
+window["a-e-ans"+a] = 3;
+
+a++
+window["a-e-q-ma"+a] = "ലോംഗ് ഡേസ് ജേർണി ടു നൈറ്റ് എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, Long Day's Journey into Night?";
+window["a-e-A"+a] = "Eugene O'Neill";
+window["a-e-B"+a] = "Tennessee Williams";
+window["a-e-C"+a] = "Arthur Miller";
+window["a-e-D"+a] = "Edward Albee";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ക്രിസ്റ്റഫർ നോളൻ ചലച്ചിത്ര പരമ്പരയിലെ ജോക്കർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of The Joker in the Christopher Nolan film series?";
+window["a-e-A"+a] = "Jack Nicholson";
+window["a-e-B"+a] = "Heath Ledger";
+window["a-e-C"+a] = "Mark Hamill";
+window["a-e-D"+a] = "Jared Leto";
+window["a-e-ans"+a] = 2;
+
+a++
+window["a-e-q-ma"+a] = "ആനിമൽ ഫാം എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, Animal Farm?";
+window["a-e-A"+a] = "George Orwell";
+window["a-e-B"+a] = "Aldous Huxley";
+window["a-e-C"+a] = "William Golding";
+window["a-e-D"+a] = "George R.R. Martin";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ വണ്ടർ വുമൺ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Wonder Woman in the film series?";
+window["a-e-A"+a] = "Gal Gadot";
+window["a-e-B"+a] = "Lynda Carter";
+window["a-e-C"+a] = "Adrianne Palicki";
+window["a-e-D"+a] = "Connie Nielsen";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "എ സ്ട്രീറ്റ്കാർ നെയിംഡ് ഡിസയർ എന്ന പ്രശസ്ത നാടകം എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, A Streetcar Named Desire?";
+window["a-e-A"+a] = "Tennessee Williams";
+window["a-e-B"+a] = "Arthur Miller";
+window["a-e-C"+a] = "Edward Albee";
+window["a-e-D"+a] = "August Wilson";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "മാർവൽ സിനിമാറ്റിക് യൂണിവേഴ്‌സിൽ തോർ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Thor in the Marvel Cinematic Universe?";
+window["a-e-A"+a] = "Chris Hemsworth";
+window["a-e-B"+a] = "Tom Hiddleston";
+window["a-e-C"+a] = "Idris Elba";
+window["a-e-D"+a] = "Anthony Hopkins";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ഏകാന്തതയുടെ നൂറുവർഷങ്ങൾ എന്ന പ്രശസ്ത നോവൽ എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous novel, One Hundred Years of Solitude?";
+window["a-e-A"+a] = "Gabriel Garcia Marquez";
+window["a-e-B"+a] = "Jorge Luis Borges";
+window["a-e-C"+a] = "Octavio Paz";
+window["a-e-D"+a] = "Mario Vargas Llosa";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "എക്സ്-മെൻ ചലച്ചിത്ര പരമ്പരയിലെ മാഗ്നെറ്റോ എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of Magneto in the X-Men film series?";
+window["a-e-A"+a] = "Ian McKellen";
+window["a-e-B"+a] = "Michael Fassbender";
+window["a-e-C"+a] = "Jennifer Lawrence";
+window["a-e-D"+a] = "James McAvoy";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "പ്രശസ്ത നാടകമായ മാക്ബത്ത് എഴുതിയത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who wrote the famous play, Macbeth?";
+window["a-e-A"+a] = "William Shakespeare";
+window["a-e-B"+a] = "George Bernard Shaw";
+window["a-e-C"+a] = "Oscar Wilde";
+window["a-e-D"+a] = "Charles Dickens";
+window["a-e-ans"+a] = 1;
+
+a++
+window["a-e-q-ma"+a] = "ചലച്ചിത്ര പരമ്പരയിലെ 'ടെർമിനേറ്റർ' എന്ന കഥാപാത്രത്തെ അവതരിപ്പിച്ചത് ആരാണ്?";
+window["a-e-q-en"+a] = "Who played the character of The &#39;Terminator&#39; in the film series?";
+window["a-e-A"+a] = "Arnold Schwarzenegger";
+window["a-e-B"+a] = "Linda Hamilton";
+window["a-e-C"+a] = "Edward Furlong";
+window["a-e-D"+a] = "Robert Patrick";
+window["a-e-ans"+a] = 1;
+
+
+
+
+
 a_eTotal = a;
