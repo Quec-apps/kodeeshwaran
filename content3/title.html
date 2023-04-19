@@ -28,10 +28,15 @@
             font-family: Rubik;
             color: #d5d7d5;
             user-select: none;
+            /* supported by Chrome and Opera */
             -webkit-user-select: none;
+            /* Safari */
             -khtml-user-select: none;
+            /* Konqueror HTML */
             -moz-user-select: none;
+            /* Firefox */
             -ms-user-select: none;
+            /* Internet Explorer/Edge */
         }
 
         .top {
@@ -272,15 +277,23 @@
             <div class="button">STATISTICS</div>
         </div>
 
-<!--         <div class="button-bg rate">
+        <div class="button-bg rate">
             <div class="button-stick"></div>
             <div class="button">RATE</div>
-        </div> -->
+        </div>
+
+        <style>
+            .ad-bnr {
+                width: 100%;
+                max-width: 600px;
+                transition: all .4s ease;
+            }
+        </style>
 
     </div>
 
     <div class="btm">
-
+        <img src="res/ad/anime640x100.png" class="ad-bnr">
     </div>
     </div>
 
@@ -330,16 +343,6 @@
     <div class="toast"></div>
     <script>
         localStorage.setItem("gameplay", 0);
-
-        adVar = Math.floor(Math.random() * 4 + 1);
-        $(".ad-img").attr("src", "res/img/ad/" + adVar + ".png");
-
-        if (adVar == 1 || adVar == 2)
-            link = "https://play.google.com/store/apps/details?id=com.quec.brain.hit";
-        if (adVar == 3)
-            link = "https://play.google.com/store/apps/details?id=com.quec.guess.malayalam";
-        if (adVar == 4)
-            link = "https://play.google.com/store/apps/details?id=com.quec.name.the.image";
 
         function allFunction() {
 
@@ -395,7 +398,7 @@
                 setTimeout(() => { $(".button").css({ transform: 'translateX(150%)' }); }, 100);
                 setTimeout(() => { $(".guess-bg").css({ transform: 'translateX(100%)', opacity: '0' }); }, 100);
                 setTimeout(() => { $(".button-stick").css({ transform: 'translateX(-100%)' }); }, 300);
-                setTimeout(() => { $(".logo-img, .coins, .rating-bg").css({ transform: 'scale(1.2)', opacity: '0' }); }, 300);
+                setTimeout(() => { $(".logo-img, .coins, .rating-bg, .ad-bnr").css({ transform: 'scale(1.2)', opacity: '0' }); }, 300);
             }
 
             $(".play-online").click(function () {
@@ -454,13 +457,13 @@
                 }, 600);
             });
 
-            $(".guess-bg").click(function () {
+            $(".ad-bnr").click(function () {
                 localStorage.setItem("intro", 0);
                 setTimeout(() => {
                     document.getElementById("click-audio").play();
                 }, 200);
                 setTimeout(() => {
-                    parent.location = link;
+                    parent.location = 'https://play.google.com/store/apps/details?id=com.quec.guess.anime';
                 }, 600);
             });
 
