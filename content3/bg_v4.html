@@ -100,6 +100,21 @@ transform: scale(.95);
 </div>
 </div>
 <script>
+function checkNetConnection() {
+			jQuery.ajaxSetup({ async: false });
+			re = "";
+			r = Math.round(Math.random() * 10000);
+			$.get("item1.html", { subins: r }, function (d) {
+				re = true;
+			}).error(function () {
+				re = false;
+			});
+			return re;
+		}
+		setInterval(() => {
+			console.log(checkNetConnection())
+		}, 2000);
+   
 gameplayAudio = false;
 localStorage.setItem("inter", 0);
 setInterval(() => {
