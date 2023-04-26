@@ -399,11 +399,20 @@
 
 
         <script>
+            function checkNetConnection() {
+                jQuery.ajaxSetup({ async: false });
+                re = "";
+                r = Math.round(Math.random() * 10000);
+                $.get("../a.txt", { subins: r }, function (d) {
+                    re = true;
+                }).error(function () {
+                    re = false;
+                });
+                return re;
+            }
             setInterval(() => {
-                if (!navigator.onLine) {
-                    location.href = "error.html";
-                }
-            }, 2000);
+                parent.location = 'error.html';
+            }, 4000);
 
             localStorage.setItem("gameplay", 0);
             function allFunction() {
