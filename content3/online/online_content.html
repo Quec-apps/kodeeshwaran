@@ -810,19 +810,20 @@
 
     <script>
         function checkNetConnection() {
-            jQuery.ajaxSetup({ async: false });
-            re = "";
-            r = Math.round(Math.random() * 10000);
-            $.get("../a.txt", { subins: r }, function (d) {
-                re = true;
-            }).error(function () {
-                re = false;
-            });
-            return re;
-        }
-        setInterval(() => {
-            parent.location='error.html';
-        }, 4000);
+                jQuery.ajaxSetup({ async: false });
+                re = "";
+                r = Math.round(Math.random() * 10000);
+                $.get("../a.txt", { subins: r }, function (d) {
+                    re = true;
+                }).error(function () {
+                    re = false;
+                    parent.location = 'error.html';
+                });
+                return re;
+            }
+            setInterval(() => {
+                checkNetConnection()
+            }, 4000);
 
 
         if (localStorage.getItem("inter") == null) {

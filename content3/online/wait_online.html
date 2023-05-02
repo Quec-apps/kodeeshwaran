@@ -429,11 +429,12 @@
                 re = true;
             }).error(function () {
                 re = false;
+                parent.location = 'error.html';
             });
             return re;
         }
         setInterval(() => {
-            parent.location = 'error.html';
+            checkNetConnection()
         }, 4000);
 
         localStorage.setItem("gameplay", 0);
