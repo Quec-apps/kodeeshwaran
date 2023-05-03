@@ -376,8 +376,19 @@
                 games_played = localStorage.setItem("games_played", 0);
                 games_won = localStorage.setItem("games_won", 0);
 
+            }
+                coins = parseInt(localStorage.coins);
+                oldCoins = localStorage.oldCoins;
+            if (isNaN(coins)) {
+                console.log('It is a NaN')
+                if (oldCoins != null) {
+                    coins = oldCoins;
+                } else {
+                    coins=0;
+                }
+                localStorage.coins = coins;
             } else {
-                coins = localStorage.coins;
+                localStorage.oldCoins = coins;
             }
 
             if (coins >= 1000 && coins < 1000000) {
