@@ -165,70 +165,24 @@
 </head>
 
 <body>
-    <div class="title">Achievements</div>
+    <style>
+        #Level, #xp {
+            font-size: xx-small;
+            color: #3e494a;
+        }
+    </style>
+    <div class="title">Achievements <span id="Level">34/</span><span id="xp">45</span></div>
 
     <div class="content">
         <div class="sub-ti">Basic</div>
 
-
-        <!-- <div class="ring">
-            <div class="ct-ti">Play 50 times</div>
-            <div class="ct-con">
-                <div class="coins">
-                    <img src="res/img/coins.png" class="coins-img">
-                    <div id="coins">500</div>
-                </div>
-                <div class="status" id="basic_status1">
-                    <div class="status-txt"><span id="basic_txt1"></span>/50</div>
-                    <div class="bar"><div class="filled" id="basic_fill1"></div></div>
-                    <script>
-                        $('#basic_txt1').text(games_played);
-                        BarFill(games_played,50, 'basic_fill1')
-                    </script>
-                </div>
-                <div class="claim-bg" id="basic_cla1" onclick="ClaimClick(1,'basic')">Claim</div>
-                <div class="claimed" id="basic_clai1">Claimed</div>
-            </div>
-        </div>
-        <div class="ring">
-            <div class="ct-ti">Play 100 times</div>
-            <div class="ct-con">
-                <div class="coins">
-                    <img src="res/img/coins.png" class="coins-img">
-                    <div id="coins">500</div>
-                </div>
-                <div class="status" id="basic_status2">
-                    <div class="status-txt"><span id="basic_txt2"></span>/100</div>
-                    <div class="bar"><div class="filled" id="basic_fill2"></div></div>
-                    <script>
-                        $('#basic_txt2').text(games_played);
-                        BarFill(games_played,100, 'basic_fill2')
-                    </script>
-                </div>
-                <div class="claim-bg" id="basic_cla2" onclick="ClaimClick(2,'basic')">Claim</div>
-                <div class="claimed" id="basic_clai2">Claimed</div>
-            </div>
-        </div> -->
-
     </div>
     <script>
-
-
-
         coins = parseInt(localStorage.coins);
 
         basicAchiev = JSON.parse(localStorage.basicAchiev);
         offlineAchiev = JSON.parse(localStorage.offlineAchiev);
         onlineAchiev = JSON.parse(localStorage.onlineAchiev);
-
-        // function CheckCurrent(i, compare_) {
-        //     if (compare_ == 'g-w')
-        //         return games_won;
-        //     else if (compare_ == 'g-p')
-        //         return games_played;
-        //     else if (compare_ == 'c-a')
-        //         return correct_answers;
-        // }
 
         for (i in basicAchiev) {
             $('.content').append(`
@@ -357,6 +311,9 @@
 
         xp = parseInt(localStorage.xp);
         Level = Math.trunc(xp % 15);
+
+        $("#Level").html(Level+'/');
+        $("#xp").html(xp);
 
         $('.content').append('<div class="sub-ti">Online</div>');
 
