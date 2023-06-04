@@ -171,7 +171,7 @@
             color: #3e494a;
         }
     </style>
-    <div class="title">Achievements <span id="Level">34/</span><span id="xp">45</span></div>
+    <div class="title">Achievements</div>
 
     <div class="content">
         <div class="sub-ti">Basic</div>
@@ -311,9 +311,6 @@
 
         xp = parseInt(localStorage.xp);
         Level = Math.trunc(xp / 15);
-
-        $("#Level").html(Level+'/');
-        $("#xp").html(xp);
 
         $('.content').append('<div class="sub-ti">Online</div>');
 
