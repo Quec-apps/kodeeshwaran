@@ -184,6 +184,16 @@
         offlineAchiev = JSON.parse(localStorage.offlineAchiev);
         onlineAchiev = JSON.parse(localStorage.onlineAchiev);
 
+        function CoinAppend(coi_) {
+            if (coi_ >= 1000 && coi_ < 1000000) {
+                return (coi_ / 1000).toFixed(2) + "K";
+            } else if (coi_ >= 1000000) {
+                return (coi_ / 1000000).toFixed(3) + "M";
+            } else {
+                return coi_;
+            }
+        }
+
         for (i in basicAchiev) {
             $('.content').append(`
 <div class="ring">
@@ -191,7 +201,7 @@
     <div class="ct-con">
         <div class="coins">
             <img src="res/img/coins.png" class="coins-img">
-            <div id="coins">${basicAchiev[i][2]}</div>
+            <div id="coins">${CoinAppend(basicAchiev[i][2])}</div>
         </div>
         <div class="status" id="basic_status${i}">
             <div class="status-txt">${games_played}/${basicAchiev[i][3]}</div>
@@ -222,7 +232,6 @@
                     $("#basic_clai" + i).fadeIn();
                 }
             }
-            // console.log(basicAchiev[i][2])
         }
         $('.content').append('<div class="sub-ti">Offline</div>');
 
@@ -234,7 +243,7 @@
 <div class="ct-con">
 <div class="coins">
     <img src="res/img/coins.png" class="coins-img">
-    <div id="coins">${offlineAchiev[i][2]}</div>
+    <div id="coins">${CoinAppend(offlineAchiev[i][2])}</div>
 </div>
 <div class="status" id="offline_status${i}">
     <div class="status-txt">${games_won}/${offlineAchiev[i][3]}</div>
@@ -265,7 +274,6 @@
                     $("#offline_clai" + i).fadeIn();
                 }
             }
-            // console.log(offlineAchiev[i][2])
         }
 
         for (i = 10; i <= 17; i++) {
@@ -275,7 +283,7 @@
 <div class="ct-con">
 <div class="coins">
     <img src="res/img/coins.png" class="coins-img">
-    <div id="coins">${offlineAchiev[i][2]}</div>
+    <div id="coins">${CoinAppend(offlineAchiev[i][2])}</div>
 </div>
 <div class="status" id="offline_status${i}">
     <div class="status-txt">${correct_answers}/${offlineAchiev[i][3]}</div>
@@ -306,7 +314,6 @@
                     $("#offline_clai" + i).fadeIn();
                 }
             }
-            // console.log(offlineAchiev[i][2])
         }
 
         xp = parseInt(localStorage.xp);
@@ -322,7 +329,7 @@
 <div class="ct-con">
 <div class="coins">
 <img src="res/img/coins.png" class="coins-img">
-<div id="coins">${onlineAchiev[i][2]}</div>
+<div id="coins">${CoinAppend(onlineAchiev[i][2])}</div>
 </div>
 <div class="status" id="online_status${i}">
 <div class="status-txt">${Level}/${onlineAchiev[i][3]}</div>
@@ -353,7 +360,6 @@ BarFill(${Level},${onlineAchiev[i][3]}, 'online_fill${i}')
                     $("#online_clai" + i).fadeIn();
                 }
             }
-            // console.log(onlineAchiev[i][2])
         }
 
         for (i = 8; i <= 18; i++) {
@@ -363,7 +369,7 @@ BarFill(${Level},${onlineAchiev[i][3]}, 'online_fill${i}')
 <div class="ct-con">
 <div class="coins">
 <img src="res/img/coins.png" class="coins-img">
-<div id="coins">${onlineAchiev[i][2]}</div>
+<div id="coins">${CoinAppend(onlineAchiev[i][2])}</div>
 </div>
 <div class="status" id="online_status${i}">
 <div class="status-txt">${online_games_won}/${onlineAchiev[i][3]}</div>
@@ -394,11 +400,8 @@ BarFill(${online_games_won},${onlineAchiev[i][3]}, 'online_fill${i}')
                     $("#online_clai" + i).fadeIn();
                 }
             }
-            // console.log(onlineAchiev[i][2])
         }
-
-
-
+        
         function ClaimClick(id, type) {
             if (type == 'basic') {
                 basicAchiev[id][1] = 1;
@@ -421,9 +424,6 @@ BarFill(${online_games_won},${onlineAchiev[i][3]}, 'online_fill${i}')
             }
             localStorage.coins = coins;
         }
-
-
     </script>
 </body>
-
 </html>
