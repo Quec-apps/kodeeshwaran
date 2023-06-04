@@ -310,7 +310,7 @@
         }
 
         xp = parseInt(localStorage.xp);
-        Level = Math.trunc(xp % 15);
+        Level = Math.trunc(xp / 15);
 
         $("#Level").html(Level+'/');
         $("#xp").html(xp);
